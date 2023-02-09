@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/tim/Documents/KiCad/Breadboard-Power-Supply/Breadboard Power Supply.kicad_sch</source>
+    <date>Monday, February 06, 2023 at 10:06:38 PM</date>
+    <tool>Eeschema (6.0.10-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Breadboard Power Supply</title>
+        <company/>
+        <rev>v1</rev>
+        <date>2023-01-11</date>
+        <source>Breadboard Power Supply.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part Num">490-3167-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digi-Key Part Num" value="490-3167-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96ccd2fb-cb5e-4ca2-bd5d-eefa9c60d7d3</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part Num">490-3167-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digi-Key Part Num" value="490-3167-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6954ecd-5745-41b6-bf45-a01a28c49d3c</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part Num">399-3684-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Digi-Key Part Num" value="399-3684-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd8219df-22f2-43a1-8f2d-266fedf92c6c</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part Num">399-3684-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Digi-Key Part Num" value="399-3684-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8dc0bcc0-e441-4d6c-bb56-d206c5811450</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2fdf45cf-bb57-42dd-a358-12f62993742a</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc741157-ad1d-4951-9ee1-d107f30e12d6</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part Num">399-3684-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Digi-Key Part Num" value="399-3684-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea02a390-7954-492d-95a0-6eb33f76354c</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part Num">399-3684-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Digi-Key Part Num" value="399-3684-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f977c7b-c2e6-4e4b-a072-d4adbd60c21c</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part Num">478-3865-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Digi-Key Part Num" value="478-3865-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>124a233d-c600-47ea-88de-9585f796326b</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part Num">490-3167-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digi-Key Part Num" value="490-3167-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f7bcb21-0716-4385-8045-637bd93e3b8c</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part Num">490-3167-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digi-Key Part Num" value="490-3167-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>067a9d8c-aa07-4536-a0f3-eb17867da3c0</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91401f67-4b75-4646-9e5b-f5be66abaffd</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB-C Power Only</value>
+      <footprint>Connector_USB:USB_C_Receptacle_GCT_USB4135-GF-A_6P_TopMnt_Horizontal</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <libsource lib="Connector" part="USB_C_Receptacle_PowerOnly_6P" description="USB Power-Only 6P Type-C Receptacle connector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7c37ee9-ff85-4cf5-89e2-a182d699b783</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d2748c1-b70c-4357-9211-2ada0805e26e</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3d25728-3811-41eb-831a-32928d97fae3</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3803013c-e416-4fc7-afc6-722740649450</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>907856cf-d28b-477c-a82a-e5a95663881b</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7dc5c5f-7fcc-4edb-bb70-7aa03d04645e</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bda186f5-96c0-4673-8d2f-cf4771e24256</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d4be4b82-69f5-4df4-a597-24f02c47133f</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1923713-5a27-4146-b89f-6d0c4f834dc1</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>Ferrite Bead</value>
+      <footprint>Inductor_SMD:L_1206_3216Metric</footprint>
+      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79796bda-c0ae-4607-ba5f-63f24ef50c7a</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>5.1k 1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part Num">2019-RK73H2ATTD5101FCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digi-Key Part Num" value="2019-RK73H2ATTD5101FCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34c7b973-5b73-4afd-868a-85719962e256</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5.1k 1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part Num">2019-RK73H2ATTD5101FCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digi-Key Part Num" value="2019-RK73H2ATTD5101FCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de684497-af9f-4b65-8aad-b2f66c5f0862</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part Num">311-330ERCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digi-Key Part Num" value="311-330ERCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e03313f5-619f-49f7-a143-63710320d4b2</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>0 Ohm</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part Num">RMCF0805ZT0R00CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digi-Key Part Num" value="RMCF0805ZT0R00CT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b2e9368-04d5-4386-a896-3a1d597196eb</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint_2Pole</value>
+      <footprint>Keystone 1287:1287</footprint>
+      <datasheet>https://www.keyelco.com/product.cfm/Vertical-Mount/1287/product_id/610</datasheet>
+      <fields>
+        <field name="Digi-Key Part Num ">36-1287-ND</field>
+        <field name="Silkscreen">Ground</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_2Pole" description="2-polar test point"/>
+      <property name="Silkscreen" value="Ground"/>
+      <property name="Digi-Key Part Num " value="36-1287-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38386610-0ce5-4d5a-837d-df4086e9238f</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint_2Pole</value>
+      <footprint>Keystone 1287:1287</footprint>
+      <datasheet>https://www.keyelco.com/product.cfm/Vertical-Mount/1287/product_id/610</datasheet>
+      <fields>
+        <field name="Digi-Key Part Num ">36-1287-ND</field>
+        <field name="Silkscreen">Ground</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_2Pole" description="2-polar test point"/>
+      <property name="Silkscreen" value="Ground"/>
+      <property name="Digi-Key Part Num " value="36-1287-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9dc084d0-7897-41a6-9bb7-b2d55fcfe9bb</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint_2Pole</value>
+      <footprint>Keystone 1287:1287</footprint>
+      <datasheet>https://www.keyelco.com/product.cfm/Vertical-Mount/1287/product_id/610</datasheet>
+      <fields>
+        <field name="Digi-Key Part Num ">36-1287-ND</field>
+        <field name="Silkscreen">Ground</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_2Pole" description="2-polar test point"/>
+      <property name="Silkscreen" value="Ground"/>
+      <property name="Digi-Key Part Num " value="36-1287-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3eb952c-179b-415a-ac9a-a84c7460cb3c</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint_2Pole</value>
+      <footprint>Keystone 1287:1287</footprint>
+      <datasheet>https://www.keyelco.com/product.cfm/Vertical-Mount/1287/product_id/610</datasheet>
+      <fields>
+        <field name="Digi-Key Part Num ">36-1287-ND</field>
+        <field name="Silkscreen">Ground</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_2Pole" description="2-polar test point"/>
+      <property name="Silkscreen" value="Ground"/>
+      <property name="Digi-Key Part Num " value="36-1287-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df24f7d7-5771-47b5-81a1-3616290ceca3</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LM1117-3.3</value>
+      <footprint>My Breadboard Power Supply Libraries:VREG_LM1117MPX-3.3_NOPB</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm1117.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LM1117-3.3" description="800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0001347-a0f7-4bfc-a4c8-55123bc5b455</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LM1117-1.8</value>
+      <footprint>My Breadboard Power Supply Libraries:VREG_LM1117MPX-3.3_NOPB</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm1117.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LM1117-1.8" description="800mA Low-Dropout Linear Regulator, 1.8V fixed output, TO-220/TO-252/TO-263/SOT-223"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc052f97-a8a1-4a07-bd05-f9ca5cbc866f</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint_2Pole">
+      <description>2-polar test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint_2Pole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Receptacle_PowerOnly_6P">
+      <description>USB Power-Only 6P Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_PowerOnly_6P</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+      </fields>
+      <pins>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_US">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Ferrite">
+      <description>Inductor with ferrite core</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Ferrite</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM1117-1.8">
+      <description>800mA Low-Dropout Linear Regulator, 1.8V fixed output, TO-220/TO-252/TO-263/SOT-223</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?252*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM1117-1.8</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm1117.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM1117-3.3">
+      <description>800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?252*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM1117-3.3</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm1117.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+1V8">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="2" name="+3.3V">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="3" name="+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VI" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="4" name="/BOTTOM_POWER_RAIL">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="5" name="/TOP_POWER_RAIL">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J1" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="7" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(J1-PadA5)">
+      <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(J1-PadB5)">
+      <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="VBUS">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>
