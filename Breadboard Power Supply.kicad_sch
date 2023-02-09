@@ -2905,7 +2905,7 @@
     (property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4135-GF-A_6P_TopMnt_Horizontal" (id 2) (at 63.5 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (id 3) (at 59.69 58.42 0)
+    (property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/12401981-6.pdf" (id 3) (at 59.69 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Digi-Key Part Num" "664-12401981E412ACT-ND" (id 6) (at 59.69 58.42 0)
