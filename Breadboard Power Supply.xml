@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>/Users/tim/Documents/KiCad/Breadboard-Power-Supply/Breadboard Power Supply.kicad_sch</source>
-    <date>Monday, February 06, 2023 at 10:06:38 PM</date>
+    <date>Wednesday, February 08, 2023 at 08:58:19 PM</date>
     <tool>Eeschema (6.0.10-0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Breadboard Power Supply</title>
         <company/>
         <rev>v1</rev>
-        <date>2023-01-11</date>
+        <date>2023-02-08</date>
         <source>Breadboard Power Supply.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -26,7 +26,7 @@
   <components>
     <comp ref="C1">
       <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="Digi-Key Part Num">490-3167-1-ND</field>
       </fields>
@@ -39,7 +39,7 @@
     </comp>
     <comp ref="C2">
       <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="Digi-Key Part Num">490-3167-1-ND</field>
       </fields>
@@ -79,7 +79,11 @@
     <comp ref="C5">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part Num">541-CRCW08051K20FKEACCT-ND</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digi-Key Part Num" value="541-CRCW08051K20FKEACCT-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -88,7 +92,11 @@
     <comp ref="C6">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part Num">541-CRCW08051K20FKEACCT-ND</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digi-Key Part Num" value="541-CRCW08051K20FKEACCT-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -135,7 +143,7 @@
     </comp>
     <comp ref="C10">
       <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="Digi-Key Part Num">490-3167-1-ND</field>
       </fields>
@@ -148,7 +156,7 @@
     </comp>
     <comp ref="C11">
       <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="Digi-Key Part Num">490-3167-1-ND</field>
       </fields>
@@ -162,7 +170,11 @@
     <comp ref="D1">
       <value>LED</value>
       <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part Num">754-1131-1-ND</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Digi-Key Part Num" value="754-1131-1-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -172,7 +184,11 @@
       <value>USB-C Power Only</value>
       <footprint>Connector_USB:USB_C_Receptacle_GCT_USB4135-GF-A_6P_TopMnt_Horizontal</footprint>
       <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <fields>
+        <field name="Digi-Key Part Num">664-12401981E412ACT-ND</field>
+      </fields>
       <libsource lib="Connector" part="USB_C_Receptacle_PowerOnly_6P" description="USB Power-Only 6P Type-C Receptacle connector"/>
+      <property name="Digi-Key Part Num" value="664-12401981E412ACT-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -181,7 +197,11 @@
     <comp ref="J2">
       <value>Conn_01x02_Male</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digi-Key Part Num">2057-PH1-02-UA-ND</field>
+      </fields>
       <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digi-Key Part Num" value="2057-PH1-02-UA-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -190,7 +210,11 @@
     <comp ref="J3">
       <value>Conn_01x02_Male</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digi-Key Part Num">2057-PH1-02-UA-ND</field>
+      </fields>
       <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digi-Key Part Num" value="2057-PH1-02-UA-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -200,6 +224,7 @@
       <value>Conn_01x02_Male</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
       <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digi-Key Part Num" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -208,7 +233,11 @@
     <comp ref="J5">
       <value>Conn_01x02_Male</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digi-Key Part Num">2057-PH1-02-UA-ND</field>
+      </fields>
       <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digi-Key Part Num" value="2057-PH1-02-UA-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -217,7 +246,11 @@
     <comp ref="J6">
       <value>Conn_01x02_Male</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digi-Key Part Num">2057-PH1-02-UA-ND</field>
+      </fields>
       <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digi-Key Part Num" value="2057-PH1-02-UA-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -226,7 +259,11 @@
     <comp ref="J7">
       <value>Conn_01x02_Male</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digi-Key Part Num">2057-PH1-02-UA-ND</field>
+      </fields>
       <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digi-Key Part Num" value="2057-PH1-02-UA-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -236,6 +273,7 @@
       <value>Conn_01x02_Male</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
       <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digi-Key Part Num" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -244,7 +282,11 @@
     <comp ref="J9">
       <value>Conn_01x02_Male</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digi-Key Part Num">2057-PH1-02-UA-ND</field>
+      </fields>
       <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digi-Key Part Num" value="2057-PH1-02-UA-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -253,7 +295,11 @@
     <comp ref="L1">
       <value>Ferrite Bead</value>
       <footprint>Inductor_SMD:L_1206_3216Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part Num">240-2412-1-ND</field>
+      </fields>
       <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="Digi-Key Part Num" value="240-2412-1-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -316,12 +362,12 @@
       <footprint>Keystone 1287:1287</footprint>
       <datasheet>https://www.keyelco.com/product.cfm/Vertical-Mount/1287/product_id/610</datasheet>
       <fields>
-        <field name="Digi-Key Part Num ">36-1287-ND</field>
+        <field name="Digi-Key Part Num"> 36-1287-ND</field>
         <field name="Silkscreen">Ground</field>
       </fields>
       <libsource lib="Connector" part="TestPoint_2Pole" description="2-polar test point"/>
       <property name="Silkscreen" value="Ground"/>
-      <property name="Digi-Key Part Num " value="36-1287-ND"/>
+      <property name="Digi-Key Part Num" value=" 36-1287-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -332,12 +378,12 @@
       <footprint>Keystone 1287:1287</footprint>
       <datasheet>https://www.keyelco.com/product.cfm/Vertical-Mount/1287/product_id/610</datasheet>
       <fields>
-        <field name="Digi-Key Part Num ">36-1287-ND</field>
+        <field name="Digi-Key Part Num">36-1287-ND</field>
         <field name="Silkscreen">Ground</field>
       </fields>
       <libsource lib="Connector" part="TestPoint_2Pole" description="2-polar test point"/>
       <property name="Silkscreen" value="Ground"/>
-      <property name="Digi-Key Part Num " value="36-1287-ND"/>
+      <property name="Digi-Key Part Num" value="36-1287-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -348,12 +394,12 @@
       <footprint>Keystone 1287:1287</footprint>
       <datasheet>https://www.keyelco.com/product.cfm/Vertical-Mount/1287/product_id/610</datasheet>
       <fields>
-        <field name="Digi-Key Part Num ">36-1287-ND</field>
+        <field name="Digi-Key Part Num">36-1287-ND</field>
         <field name="Silkscreen">Ground</field>
       </fields>
       <libsource lib="Connector" part="TestPoint_2Pole" description="2-polar test point"/>
       <property name="Silkscreen" value="Ground"/>
-      <property name="Digi-Key Part Num " value="36-1287-ND"/>
+      <property name="Digi-Key Part Num" value="36-1287-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -364,12 +410,12 @@
       <footprint>Keystone 1287:1287</footprint>
       <datasheet>https://www.keyelco.com/product.cfm/Vertical-Mount/1287/product_id/610</datasheet>
       <fields>
-        <field name="Digi-Key Part Num ">36-1287-ND</field>
+        <field name="Digi-Key Part Num">36-1287-ND</field>
         <field name="Silkscreen">Ground</field>
       </fields>
       <libsource lib="Connector" part="TestPoint_2Pole" description="2-polar test point"/>
       <property name="Silkscreen" value="Ground"/>
-      <property name="Digi-Key Part Num " value="36-1287-ND"/>
+      <property name="Digi-Key Part Num" value="36-1287-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -379,7 +425,11 @@
       <value>LM1117-3.3</value>
       <footprint>My Breadboard Power Supply Libraries:VREG_LM1117MPX-3.3_NOPB</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/lm1117.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Num">497-1241-1-ND</field>
+      </fields>
       <libsource lib="Regulator_Linear" part="LM1117-3.3" description="800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"/>
+      <property name="Digi-Key Part Num" value="497-1241-1-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -389,7 +439,11 @@
       <value>LM1117-1.8</value>
       <footprint>My Breadboard Power Supply Libraries:VREG_LM1117MPX-3.3_NOPB</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/lm1117.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Num">LM1117MPX-1.8/NOPBCT-ND</field>
+      </fields>
       <libsource lib="Regulator_Linear" part="LM1117-1.8" description="800mA Low-Dropout Linear Regulator, 1.8V fixed output, TO-220/TO-252/TO-263/SOT-223"/>
+      <property name="Digi-Key Part Num" value="LM1117MPX-1.8/NOPBCT-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
