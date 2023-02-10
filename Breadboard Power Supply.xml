@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/tim/Documents/KiCad/Breadboard-Power-Supply/Breadboard Power Supply.kicad_sch</source>
-    <date>Wednesday, February 08, 2023 at 08:58:19 PM</date>
+    <date>Thursday, February 09, 2023 at 08:54:49 PM</date>
     <tool>Eeschema (6.0.10-0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -28,10 +28,10 @@
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="Digi-Key Part Num">490-3167-1-ND</field>
+        <field name="Digi-Key Part Num">399-6854-1-ND</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Digi-Key Part Num" value="490-3167-1-ND"/>
+      <property name="Digi-Key Part Num" value="399-6854-1-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -41,10 +41,10 @@
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="Digi-Key Part Num">490-3167-1-ND</field>
+        <field name="Digi-Key Part Num">399-6854-1-ND</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Digi-Key Part Num" value="490-3167-1-ND"/>
+      <property name="Digi-Key Part Num" value="399-6854-1-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -145,10 +145,10 @@
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="Digi-Key Part Num">490-3167-1-ND</field>
+        <field name="Digi-Key Part Num">399-6854-1-ND</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Digi-Key Part Num" value="490-3167-1-ND"/>
+      <property name="Digi-Key Part Num" value="399-6854-1-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -158,10 +158,10 @@
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="Digi-Key Part Num">490-3167-1-ND</field>
+        <field name="Digi-Key Part Num">399-6854-1-ND</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Digi-Key Part Num" value="490-3167-1-ND"/>
+      <property name="Digi-Key Part Num" value="399-6854-1-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -183,12 +183,12 @@
     <comp ref="J1">
       <value>USB-C Power Only</value>
       <footprint>Connector_USB:USB_C_Receptacle_GCT_USB4135-GF-A_6P_TopMnt_Horizontal</footprint>
-      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <datasheet>https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/12401981-6.pdf</datasheet>
       <fields>
-        <field name="Digi-Key Part Num">664-12401981E412ACT-ND</field>
+        <field name="Digi-Key Part Num">2223-UJC-HP-G-5-SMT-TRCT-ND</field>
       </fields>
       <libsource lib="Connector" part="USB_C_Receptacle_PowerOnly_6P" description="USB Power-Only 6P Type-C Receptacle connector"/>
-      <property name="Digi-Key Part Num" value="664-12401981E412ACT-ND"/>
+      <property name="Digi-Key Part Num" value="2223-UJC-HP-G-5-SMT-TRCT-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
