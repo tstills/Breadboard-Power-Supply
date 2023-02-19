@@ -1118,6 +1118,10 @@
     (stroke (width 0) (type default))
     (uuid 8adace75-b161-4b9e-ac73-9a25d3e16cd0)
   )
+  (wire (pts (xy 115.57 41.91) (xy 115.57 44.45))
+    (stroke (width 0) (type default))
+    (uuid 8c3cfd71-84e3-4c81-9555-daf893dc774b)
+  )
   (wire (pts (xy 105.41 163.83) (xy 116.84 163.83))
     (stroke (width 0) (type default))
     (uuid 8d210c26-b354-4982-91bc-d632ed7c9129)
@@ -1655,6 +1659,31 @@
       (project "Breadboard Power Supply"
         (path "/a474ae98-d5ea-4288-b242-cd0417157b2d"
           (reference "#PWR0114") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 115.57 41.91 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 206402bc-dbca-4aab-b6d3-e9e6d0e7b975)
+    (property "Reference" "#PWR03" (at 115.57 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 115.57 38.1 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 115.57 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 115.57 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a3447a8e-117c-445a-8f6a-67c7dbde4028))
+    (instances
+      (project "Breadboard Power Supply"
+        (path "/a474ae98-d5ea-4288-b242-cd0417157b2d"
+          (reference "#PWR03") (unit 1)
         )
       )
     )
