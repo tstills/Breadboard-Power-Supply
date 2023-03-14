@@ -200,7 +200,7 @@
       (net 1 "GND") (pinfunction "MH3") (pintype "passive") (tstamp 92c14f69-a555-451b-84a3-bfdba5721e5d))
     (pad "MH4" thru_hole circle (at 4.32 -2.95 180) (size 2.01 2.01) (drill 1.34) (layers "*.Cu" "*.Mask")
       (net 1 "GND") (pinfunction "MH4") (pintype "passive") (tstamp c14ab14f-76c2-4722-93b6-7aefeb554966))
-    (model "/Users/tim/Documents/KiCad/My Global Footprints.pretty/USB-C Surface Mount.stp"
+    (model "/Users/tim/Documents/KiCad/My-Global-Footprints.pretty/USB-C Surface Mount.stp"
       (offset (xyz 0 0.009999999626 0.6799999969))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
