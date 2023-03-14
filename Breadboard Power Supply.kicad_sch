@@ -1580,7 +1580,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bbc5eac4-9679-4ab5-9c95-149d179e665e)
   )
-  (text "To Do:\n\n1)  Smaller ground clips.\n2)  Interstitial.\n3)  Non-panelized solder stencil.\n4)  Don't have vias go through the rear silkscreen.\n5)  Move the version number closer to the USB connector.\n6)  Make the mounting holes on the USB-C connector a smidge smaller.\n7)  The inner most power selection jumper's silk screen are getting clipped.\n8)  The line on the capacitor is actually positive, not negative.\n9)  Make the voltage selection jumpers be on 100mil spacing for easy assembly.\n10) Move the rear silkscreen down slightly.\n11) The spacing on the mounting jumpers isn't correct.\n12) Both power and ground rails are swapped."
+  (text "To Do:\n\n1)  Smaller ground clips.\n2)  Interstitial.\n3)  Non-panelized solder stencil.\n4)  Don't have vias go through the rear silkscreen.\n5)  Make the mounting holes on the USB-C connector a smidge smaller.\n6)  The inner most power selection jumper's silk screen are getting clipped.\n7)  The line on the capacitor is actually positive, not negative.\n8)  Make the voltage selection jumpers be on 100mil spacing for easy assembly.\n9)  The spacing on the mounting jumpers isn't correct."
     (at 178.054 49.53 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c427d502-660c-48b4-be93-d7aeaba597ba)
