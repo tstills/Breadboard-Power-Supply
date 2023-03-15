@@ -896,7 +896,6 @@
     )
   )
 
-
   (junction (at 142.24 57.15) (diameter 0) (color 0 0 0 0)
     (uuid 0c25de32-a64d-4f44-bd82-6dd51a7e33fa)
   )
@@ -1581,7 +1580,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bbc5eac4-9679-4ab5-9c95-149d179e665e)
   )
-  (text "To Do:\n\n1)  Smaller ground clips.\n2)  Interstitial.\n3)  Non-panelized solder stencil.\n4)  Don't have vias go through the rear silkscreen.\n5)  Make the mounting holes on the USB-C connector a smidge smaller.\n6)  The inner most power selection jumper's silk screen are getting clipped.\n7)  Make the voltage selection jumpers be on 100mil spacing for easy assembly.\n8)  The spacing on the mounting jumpers isn't correct.\n9)  See how hot the regulators get with a 800mA load."
+  (text "To Do:\n\n1)  Smaller ground clips.\n2)  Interstitial.\n3)  Non-panelized solder stencil.\n4)  Don't have vias go through the rear silkscreen.\n5)  Make the mounting holes on the USB-C connector a smidge smaller.\n6)  The inner most power selection jumper's silk screen are getting clipped.\n7)  Make the voltage selection jumpers be on 100mil spacing for easy assembly.\n8)  The spacing on the mounting jumpers isn't correct."
     (at 178.054 47.752 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c427d502-660c-48b4-be93-d7aeaba597ba)
