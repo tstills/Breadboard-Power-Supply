@@ -896,6 +896,7 @@
     )
   )
 
+
   (junction (at 142.24 57.15) (diameter 0) (color 0 0 0 0)
     (uuid 0c25de32-a64d-4f44-bd82-6dd51a7e33fa)
   )
@@ -1579,11 +1580,6 @@
   (text "Ground Clips" (at 43.18 177.419 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bbc5eac4-9679-4ab5-9c95-149d179e665e)
-  )
-  (text "To Do:\n\n1)  Non-panelized solder stencil.\n2)  Make the mounting holes on the USB-C connector a smidge smaller."
-    (at 177.8 32.766 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid c427d502-660c-48b4-be93-d7aeaba597ba)
   )
   (text "Bottom Power Rail" (at 219.71 115.57 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
