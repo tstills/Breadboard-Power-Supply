@@ -1569,6 +1569,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 54e789d1-d8e0-4d85-9321-3836c9abff9d)
   )
+  (text "Feedback\n\n1) USB Connector mounts shouldn't have holes in stencil.\n2) Move the backside silkscreen down a smidge.\n3) XXX The power rail header mechanicals look to be slightly off.\n4) XXX U1, U2, and J1 reference designators are too close to the board edge.\n5) XXX Make version number a smidge larger.\n6) XXX Update version number.\n7) XXX The PCB is overlapping the breadboard by 0.060 inches.\n8) XXX Move J2 and J3 down into the legs.\n9) XXX Make voltage silkscreen font a bit larger."
+    (at 191.389 42.545 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 5db445ad-2556-4ed9-9cf9-e2af87bb0bd6)
+  )
   (text "Top Power Rail" (at 227.33 52.07 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 777e3e67-11d4-454b-92c8-c02330fa4aec)
