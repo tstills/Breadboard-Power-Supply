@@ -896,7 +896,6 @@
     )
   )
 
-
   (junction (at 149.86 45.72) (diameter 0) (color 0 0 0 0)
     (uuid 0c25de32-a64d-4f44-bd82-6dd51a7e33fa)
   )
@@ -1569,8 +1568,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 54e789d1-d8e0-4d85-9321-3836c9abff9d)
   )
-  (text "Feedback\n\n1) USB Connector mounts shouldn't have holes in stencil.\n2) Move the backside silkscreen down a smidge.\n3) XXX The power rail header mechanicals look to be slightly off.\n4) XXX U1, U2, and J1 reference designators are too close to the board edge.\n5) XXX Make version number a smidge larger.\n6) XXX Update version number.\n7) XXX The PCB is overlapping the breadboard by 0.060 inches.\n8) XXX Move J2 and J3 down into the legs.\n9) XXX Make voltage silkscreen font a bit larger."
-    (at 191.389 42.545 0)
+  (text "Feedback\n\n1) USB Connector mounts shouldn't have holes in stencil.\n2) XXX Move the backside silkscreen down a smidge.\n3) XXX The power rail header mechanicals look to be slightly off.\n4) XXX U1, U2, and J1 reference designators are too close to the board edge.\n5) XXX Make version number a smidge larger.\n6) XXX Update version number.\n7) XXX The PCB is overlapping the breadboard by 0.060 inches.\n8) XXX Move J2 and J3 down into the legs.\n9) XXX Make voltage silkscreen font a bit larger."
+    (at 187.96 44.958 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5db445ad-2556-4ed9-9cf9-e2af87bb0bd6)
   )
