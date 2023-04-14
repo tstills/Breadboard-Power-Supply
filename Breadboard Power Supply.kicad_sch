@@ -6,8 +6,8 @@
 
   (title_block
     (title "Breadboard Power Supply")
-    (date "2023-03-19")
-    (rev "v3")
+    (date "2023-04-13")
+    (rev "v4")
   )
 
   (lib_symbols
@@ -896,6 +896,7 @@
     )
   )
 
+
   (junction (at 149.86 45.72) (diameter 0) (color 0 0 0 0)
     (uuid 0c25de32-a64d-4f44-bd82-6dd51a7e33fa)
   )
@@ -1568,8 +1569,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 54e789d1-d8e0-4d85-9321-3836c9abff9d)
   )
-  (text "Feedback\n\n1) USB Connector mounts shouldn't have holes in stencil.\n2) XXX Move the backside silkscreen down a smidge.\n3) XXX The power rail header mechanicals look to be slightly off.\n4) XXX U1, U2, and J1 reference designators are too close to the board edge.\n5) XXX Make version number a smidge larger.\n6) XXX Update version number.\n7) XXX The PCB is overlapping the breadboard by 0.060 inches.\n8) XXX Move J2 and J3 down into the legs.\n9) XXX Make voltage silkscreen font a bit larger."
-    (at 187.96 44.958 0)
+  (text "Feedback\n\n1) 470 ohms is still too small for the LED brightness.\n2) Come up with a way to not fry things if more than one jumper is populated.\n3) The stencil shouldn't have holes for the mounting holes."
+    (at 178.816 30.226 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5db445ad-2556-4ed9-9cf9-e2af87bb0bd6)
   )

@@ -7,8 +7,8 @@
   (paper "A")
   (title_block
     (title "Breadboard Power Supply")
-    (date "2023-02-20")
-    (rev "v2")
+    (date "2023-04-13")
+    (rev "v4")
   )
 
   (layers
