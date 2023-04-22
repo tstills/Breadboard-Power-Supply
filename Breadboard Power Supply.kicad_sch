@@ -896,7 +896,6 @@
     )
   )
 
-
   (junction (at 149.86 45.72) (diameter 0) (color 0 0 0 0)
     (uuid 0c25de32-a64d-4f44-bd82-6dd51a7e33fa)
   )
@@ -1569,8 +1568,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 54e789d1-d8e0-4d85-9321-3836c9abff9d)
   )
-  (text "Feedback\n\n1) 470 ohms is still too small for the LED brightness.\n2) Come up with a way to not fry things if more than one jumper is populated.\n3) The stencil shouldn't have holes for the mounting holes."
-    (at 178.816 30.226 0)
+  (text "Feedback\n\n1) XXX 470 ohms is still too small for the LED brightness.\n2) Come up with a way to not fry things if more than one jumper is populated.\n3) XXX The stencil shouldn't have holes for the mounting holes.\n4) XXX Move the J1 reference designator to the bottom of the USB-C connector.\n5) Make the sides 0.010\" wider on each side.\n6) Make the inside right leg a smidge smaller on the inside.\n7) Move the ground via away from the version number\n8) Move the via under C7 below the silkscreen.\n9) Move trace under R2 to horizontal instead of at an angle.\n10) C5 and C7 reference designators need to be on the same plane.\n11) Move R2 reference designator to next to the resistor.\n12) Move R3 up next to the board edge.\n13) Move R1 and R2 up to the board edge.\n14) Move U1 abd U2 next to the board edge.\n15) C7 is being clipped by a via.\n16) Rotate C3 90 degrees to save space.\n17) Put the version numnber on the back side of the board."
+    (at 187.325 53.467 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5db445ad-2556-4ed9-9cf9-e2af87bb0bd6)
   )
@@ -2797,7 +2796,7 @@
     (property "Reference" "R3" (at 129.54 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "470" (at 129.54 66.04 0)
+    (property "Value" "1k" (at 129.54 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 129.286 65.024 90)
