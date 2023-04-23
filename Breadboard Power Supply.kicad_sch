@@ -6,7 +6,7 @@
 
   (title_block
     (title "Breadboard Power Supply")
-    (date "2023-04-13")
+    (date "2023-04-22")
     (rev "v5")
   )
 
@@ -1575,7 +1575,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 54e789d1-d8e0-4d85-9321-3836c9abff9d)
   )
-  (text "Feedback\n\n1)  XXX 470 ohms is still too small for the LED brightness.\n2)  Come up with a way to not fry things if more than one jumper is populated.\n3)  XXX The stencil shouldn't have holes for the mounting holes.\n4)  XXX Move the J1 reference designator to the bottom of the USB-C connector.\n5)  XXX Make the sides 0.010\" wider on each side.\n6)  XXX Move the ground via away from the version number\n7)  XXX Move the via under C7 below the silkscreen.\n8)  XXX Move trace under R2 to horizontal instead of at an angle.\n9)  XXX Move R2 reference designator to next to the resistor.\n10) XXX Move R3 up next to the board edge.\n11) XXX Move R1 and R2 up to the board edge.\n12) Move U1 abd U2 next to the board edge.\n13) XXX C7 is being clipped by a via.\n14) XXX Rotate C3 90 degrees to save space.\n15) XXX Clean up the schematic.\n16) XXX Update the version number.\n17) XXX The power rails weren't connected.\n18) Move the reference designator out from under the USB-C."
+  (text "Feedback\n\n1)  XXX 470 ohms is still too small for the LED brightness.\n2)  XXX The stencil shouldn't have holes for the mounting holes.\n3)  XXX Move the J1 reference designator to the bottom of the USB-C connector.\n4)  XXX Make the sides 0.010\" wider on each side.\n5)  XXX Move the ground via away from the version number\n6)  XXX Move the via under C7 below the silkscreen.\n7)  XXX Move trace under R2 to horizontal instead of at an angle.\n8)  XXX Move R2 reference designator to next to the resistor.\n9)  XXX Move R3 up next to the board edge.\n10) XXX Move R1 and R2 up to the board edge.\n11) XXX Move U1 abd U2 next to the board edge.\n12) XXX C7 is being clipped by a via.\n13) XXX Rotate C3 90 degrees to save space.\n14) XXX Clean up the schematic.\n15) XXX Update the version number.\n16) XXX The power rails weren't connected.\n17) XXX Move the reference designator out from under the USB-C."
     (at 178.689 54.737 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5db445ad-2556-4ed9-9cf9-e2af87bb0bd6)
