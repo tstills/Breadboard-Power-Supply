@@ -1637,6 +1637,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid da13c5eb-e888-4911-93ca-755397952940)
   )
+  (text "Feedback\n\n1) Add a Schottky diode to the VBUS coming off the USB-C. Shawn Hymel uses a MBR120VLSFT1G."
+    (at 165.1 19.304 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ed26f844-f85b-4e88-aa5b-17535e98d234)
+  )
 
   (label "+1V8" (at 185.42 71.12 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
