@@ -1706,11 +1706,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid da13c5eb-e888-4911-93ca-755397952940)
   )
-  (text "Feedback\n\n1) XXX Attach a Zener diode to VBUS.\n2) Make the mounting holes on the USB-C footprint a smidge smaller.\n3) XXX Put reference designators back on the silkscreen.\n4) XXX Change resistor and capacitor footprints to 0402.\n5) XXX Take out 0603 1k resistor.\n6) XXX Move R4 away from the mechanical support header.\n7) XXX Update the version numbers.\n8) XXX Attach a Zener diode to VBUS.\n9) XXX Put Zener diodes on both the top and bottom sides."
-    (at 165.481 40.513 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid ed26f844-f85b-4e88-aa5b-17535e98d234)
-  )
   (text "Only populate one of these" (at 87.63 63.5 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fa13d216-bdad-4698-bfe5-fd88c847709b)
