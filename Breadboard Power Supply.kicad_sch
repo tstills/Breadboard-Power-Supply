@@ -1705,8 +1705,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid da13c5eb-e888-4911-93ca-755397952940)
   )
-  (text "Feedback\n\n1) Add Open Source Hardware logo to the back side silkscreen."
-    (at 177.8 26.67 0)
+  (text "Feedback\n\n1) Add Open Source Hardware logo to the back side silkscreen.\n2) Make the surface mount pads under the USB-C not be in the solder stencil.\n3) Make the mounting holes for the USB-C connector a bit smaller."
+    (at 177.8 33.02 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f573c436-cd46-4dad-84ae-d2b9a277745c)
   )
