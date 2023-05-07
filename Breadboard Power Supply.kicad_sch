@@ -1705,7 +1705,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid da13c5eb-e888-4911-93ca-755397952940)
   )
-  (text "Feedback\n\n1) Add Open Source Hardware logo to the back side silkscreen.\n2) XXX Make the mounting holes for the USB-C connector 20% smaller.\n3) Get rid of one of the Zener diodes.\n4) Round the corners of the PCB."
+  (text "Feedback\n\n1) Add Open Source Hardware logo to the back side silkscreen.\n2) XXX Make the mounting holes for the USB-C connector 20% smaller.\n3) Get rid of one of the Zener diodes.\n4) Round the corners of the PCB.\n5) Fill out new global part number fields."
     (at 177.8 34.925 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f573c436-cd46-4dad-84ae-d2b9a277745c)
@@ -2519,6 +2519,9 @@
     )
     (property "Digi-Key Part Num" "900-2171750001CT-ND" (at 101.6 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Purpose" "" (at 101.6 43.18 0)
+      (effects (font (size 1.27 1.27)))
     )
     (pin "A12" (uuid a52f3022-7828-4e55-a7e9-8ee6facdaaaf))
     (pin "A5" (uuid 0d92e410-5a26-42f0-9220-6981315862b9))
