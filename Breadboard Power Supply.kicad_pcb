@@ -1419,7 +1419,7 @@
       (net 9 "+5V") (pinfunction "K") (pintype "passive") (tstamp 1c7c0195-406a-4f81-bf80-e35e2cbc794c))
     (pad "2" smd roundrect (at 2.15 0 90) (size 2.5 2.3) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1086956522)
       (net 1 "GND") (pinfunction "A") (pintype "passive") (tstamp 6cdfad1b-0c97-4c3c-88a2-a02d54d75256))
-    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMB.wrl"
+    (model "${KIPRJMOD}/My-Local-Footprints/SMBJ5.0A Zener Diode.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
