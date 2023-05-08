@@ -1705,7 +1705,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid da13c5eb-e888-4911-93ca-755397952940)
   )
-  (text "Feedback\n\n1) Add Open Source Hardware logo to the back side silkscreen.\n2) XXX Make the mounting holes for the USB-C connector 20% smaller.\n3) Get rid of the Zener diode on the top layer.\n4) Round the corners of the PCB.\n5) Fill out new global part number fields.\n6) Add a global on/off switch.\n7) Resize the board to take into account there isn't a Zener diode on top."
+  (text "Feedback\n\n1) XXX Add Open Source Hardware logo to the back side silkscreen.\n2) XXX Make the mounting holes for the USB-C connector 20% smaller.\n3) Get rid of the Zener diode on the top layer.\n4) Fill out new global part number fields.\n5) Add a global on/off switch.\n6) Resize the board to take into account there isn't a Zener diode on top.\n8) Update the version number."
     (at 177.8 40.64 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f573c436-cd46-4dad-84ae-d2b9a277745c)
