@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/tim/Documents/KiCad/Breadboard-Power-Supply/Breadboard Power Supply.kicad_sch</source>
-    <date>Monday, May 08, 2023 at 01:19:11 PM</date>
+    <date>Sunday, May 14, 2023 at 01:51:44 PM</date>
     <tool>Eeschema (7.0.0-0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -28,10 +28,13 @@
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Digi-Key Part Num">399-6854-1-ND</field>
+        <field name="Digi-Key Part Num">490-14603-1-ND</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Digi-Key Part Num" value="399-6854-1-ND"/>
+      <property name="Digi-Key Part Num" value="490-14603-1-ND"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Mfg Part Num" value=""/>
+      <property name="Description" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -43,10 +46,13 @@
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Digi-Key Part Num">399-6854-1-ND</field>
+        <field name="Digi-Key Part Num">490-14603-1-ND</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Digi-Key Part Num" value="399-6854-1-ND"/>
+      <property name="Digi-Key Part Num" value="490-14603-1-ND"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Mfg Part Num" value=""/>
+      <property name="Description" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -118,10 +124,13 @@
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Digi-Key Part Num">399-6854-1-ND</field>
+        <field name="Digi-Key Part Num">490-14603-1-ND</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Digi-Key Part Num" value="399-6854-1-ND"/>
+      <property name="Digi-Key Part Num" value="490-14603-1-ND"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Mfg Part Num" value=""/>
+      <property name="Description" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -133,10 +142,13 @@
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Digi-Key Part Num">399-6854-1-ND</field>
+        <field name="Digi-Key Part Num">490-14603-1-ND</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Digi-Key Part Num" value="399-6854-1-ND"/>
+      <property name="Digi-Key Part Num" value="490-14603-1-ND"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Mfg Part Num" value=""/>
+      <property name="Description" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -164,7 +176,7 @@
     </comp>
     <comp ref="D2">
       <value>SMBJ5.0A-TR</value>
-      <footprint>My-Global-Footprints:SMB_STM</footprint>
+      <footprint>Diode_SMD:D_SMB</footprint>
       <datasheet>https://www.st.com/content/ccc/resource/technical/document/datasheet/19/78/91/39/07/cd/40/65/CD00001366.pdf/files/CD00001366.pdf/_jcr_content/translations/en.CD00001366.pdf</datasheet>
       <fields>
         <field name="Description">Zener Diode</field>
@@ -184,28 +196,43 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>504362f4-7d4a-4e3e-9de6-8a8067438cdb</tstamps>
     </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part Num">511-1580-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Digi-Key Part Num" value="511-1580-1-ND"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Mfg Part Num" value=""/>
+      <property name="Description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e345876b-4344-4d06-b387-b1ef9149e224</tstamps>
+    </comp>
     <comp ref="J1">
       <value>USB-C</value>
-      <footprint>My-Global-Footprints:USB-C Surface Mount</footprint>
+      <footprint>My-Local-Footprints:USB-C Power Only</footprint>
       <datasheet>https://www.molex.com/webdocs/datasheets/pdf/en-us/2171750001_IO_CONNECTORS.pdf</datasheet>
       <fields>
-        <field name="Description">Connector USB Type C Female 6Positions 0.5mm Right Angle SMT Embossed T/R - Tape and Reel</field>
+        <field name="Description">USB-C Power Only</field>
         <field name="Digi-Key Part Num">900-2171750001CT-ND</field>
-        <field name="Height">3.46</field>
         <field name="Manufacturer">Molex</field>
         <field name="Mfg Part Num">217175-0001</field>
       </fields>
-      <libsource lib="USB-C Surface Mount" part="217175-0001" description="Connector USB Type C Female 6Positions 0.5mm Right Angle SMT Embossed T/R - Tape and Reel"/>
-      <property name="Description" value="Connector USB Type C Female 6Positions 0.5mm Right Angle SMT Embossed T/R - Tape and Reel"/>
-      <property name="Height" value="3.46"/>
-      <property name="Digi-Key Part Num" value="900-2171750001CT-ND"/>
+      <libsource lib="My-Local-Symbols" part="USB-C_Power_Only" description=""/>
       <property name="Manufacturer" value="Molex"/>
       <property name="Mfg Part Num" value="217175-0001"/>
+      <property name="Digi-Key Part Num" value="900-2171750001CT-ND"/>
+      <property name="Description" value="USB-C Power Only"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
-      <property name="ki_description" value="Connector USB Type C Female 6Positions 0.5mm Right Angle SMT Embossed T/R - Tape and Reel"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>6affa070-673b-4f7b-947f-b8b723e13d8b</tstamps>
+      <tstamps>3ca803af-21c5-4e0e-8715-86fd10c9c946</tstamps>
     </comp>
     <comp ref="J2">
       <value>Conn_02x03_Odd_Even</value>
@@ -291,7 +318,7 @@
       <tstamps>667e343e-9bd0-4caf-915a-4344f349689c</tstamps>
     </comp>
     <comp ref="R1">
-      <value>5.1k</value>
+      <value>5.1kΩ</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
         <field name="Digi-Key Part Num">10-ERJ-UP3F5101VCT-ND</field>
@@ -306,7 +333,7 @@
       <tstamps>c9144a0b-6805-44df-ab75-a53605a1b7ef</tstamps>
     </comp>
     <comp ref="R2">
-      <value>5.1k</value>
+      <value>5.1kΩ</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
         <field name="Digi-Key Part Num">10-ERJ-UP3F5101VCT-ND</field>
@@ -320,8 +347,8 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>59302f44-a361-4085-91a7-6d09ffc915ab</tstamps>
     </comp>
-    <comp ref="R4">
-      <value>1k</value>
+    <comp ref="R3">
+      <value>470Ω</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
         <field name="Digi-Key Part Num">311-1.00KLRCT-ND</field>
@@ -335,11 +362,31 @@
       <property name="ki_description" value="Resistor, US symbol"/>
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
+      <tstamps>554c8e34-4c79-46ea-9d3c-a83f8efc8cfe</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>470Ω</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part Num">311-1.00KLRCT-ND</field>
+        <field name="Footprint Nickname">0402</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digi-Key Part Num" value="311-1.00KLRCT-ND"/>
+      <property name="Footprint Nickname" value="0402"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Mfg Part Num" value=""/>
+      <property name="Description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Breadboard Power Supply.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
       <tstamps>dfd6d5be-c633-42b5-b5de-e8ff74b0ef67</tstamps>
     </comp>
     <comp ref="TP1">
       <value>TestPoint_2Pole</value>
-      <footprint>My-Global-Footprints:Keystone 1430-1</footprint>
+      <footprint>My-Local-Footprints:Keystone 1430-1</footprint>
       <datasheet>https://www.keyelco.com/userAssets/file/M65p105.pdf</datasheet>
       <fields>
         <field name="Digi-Key Part Num">36-1430-1-ND</field>
@@ -360,7 +407,7 @@
     </comp>
     <comp ref="TP2">
       <value>TestPoint_2Pole</value>
-      <footprint>My-Global-Footprints:Keystone 1430-1</footprint>
+      <footprint>My-Local-Footprints:Keystone 1430-1</footprint>
       <datasheet>https://www.keyelco.com/product.cfm/Vertical-Mount/1287/product_id/610</datasheet>
       <fields>
         <field name="Digi-Key Part Num">36-1287-ND</field>
@@ -378,7 +425,7 @@
     </comp>
     <comp ref="TP3">
       <value>TestPoint_2Pole</value>
-      <footprint>My-Global-Footprints:Keystone 1430-1</footprint>
+      <footprint>My-Local-Footprints:Keystone 1430-1</footprint>
       <datasheet>https://www.keyelco.com/product.cfm/Vertical-Mount/1287/product_id/610</datasheet>
       <fields>
         <field name="Digi-Key Part Num"> 36-1287-ND</field>
@@ -396,7 +443,7 @@
     </comp>
     <comp ref="TP4">
       <value>TestPoint_2Pole</value>
-      <footprint>My-Global-Footprints:Keystone 1430-1</footprint>
+      <footprint>My-Local-Footprints:Keystone 1430-1</footprint>
       <datasheet>https://www.keyelco.com/product.cfm/Vertical-Mount/1287/product_id/610</datasheet>
       <fields>
         <field name="Digi-Key Part Num">36-1287-ND</field>
@@ -590,6 +637,33 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Graphic" part="Logo_Open_Hardware_Small">
+      <description>Open Hardware logo, small</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">#SYM</field>
+        <field name="Value">Logo_Open_Hardware_Small</field>
+        <field name="Datasheet">~</field>
+        <field name="Sim.Enable">0</field>
+      </fields>
+    </libpart>
+    <libpart lib="My-Local-Symbols" part="USB-C_Power_Only">
+      <fields>
+        <field name="Reference">J</field>
+      </fields>
+      <pins>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="MH1" name="MH1" type="passive"/>
+        <pin num="MH2" name="MH2" type="passive"/>
+        <pin num="MH3" name="MH3" type="passive"/>
+        <pin num="MH4" name="MH4" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Regulator_Linear" part="LM1117MP-1.8">
       <description>800mA Low-Dropout Linear Regulator, 1.8V fixed output, SOT-223</description>
       <docs>http://www.ti.com/lit/ds/symlink/lm1117.pdf</docs>
@@ -626,34 +700,6 @@
         <pin num="3" name="VI" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="USB-C Surface Mount" part="217175-0001">
-      <description>Connector USB Type C Female 6Positions 0.5mm Right Angle SMT Embossed T/R - Tape and Reel</description>
-      <docs>https://www.molex.com/pdm_docs/sd/2171750001_sd.pdf</docs>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">217175-0001</field>
-        <field name="Footprint">2171750001</field>
-        <field name="Datasheet">https://www.molex.com/pdm_docs/sd/2171750001_sd.pdf</field>
-        <field name="Description">Connector USB Type C Female 6Positions 0.5mm Right Angle SMT Embossed T/R - Tape and Reel</field>
-        <field name="Height">3.46</field>
-        <field name="Manufacturer_Name">Molex</field>
-        <field name="Manufacturer_Part_Number">217175-0001</field>
-        <field name="Mouser Part Number">538-217175-0001</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Molex/217175-0001?qs=DRkmTr78QARWJMiqNnldSg%3D%3D</field>
-      </fields>
-      <pins>
-        <pin num="A5" name="CC1" type="passive"/>
-        <pin num="A9" name="VBUS_1" type="passive"/>
-        <pin num="A12" name="GND_1" type="passive"/>
-        <pin num="B5" name="CC2" type="passive"/>
-        <pin num="B9" name="VBUS_2" type="passive"/>
-        <pin num="B12" name="GND_2" type="passive"/>
-        <pin num="MH1" name="MH1" type="passive"/>
-        <pin num="MH2" name="MH2" type="passive"/>
-        <pin num="MH3" name="MH3" type="passive"/>
-        <pin num="MH4" name="MH4" type="passive"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
     <library logical="Connector">
@@ -665,6 +711,12 @@
     <library logical="Device">
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
     </library>
+    <library logical="Graphic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Graphic.kicad_sym</uri>
+    </library>
+    <library logical="My-Local-Symbols">
+      <uri>/Users/tim/Documents/KiCad/Breadboard-Power-Supply/My-Local-Symbols/My-Local-Symbols.kicad_sym</uri>
+    </library>
     <library logical="Regulator_Linear">
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Linear.kicad_sym</uri>
     </library>
@@ -673,6 +725,7 @@
     <net code="1" name="+1V8">
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="VO" pintype="power_out"/>
@@ -680,6 +733,7 @@
     <net code="2" name="+3.3V">
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U2" pin="2" pinfunction="VO" pintype="power_out"/>
@@ -689,10 +743,9 @@
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
-      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="J1" pin="A9" pinfunction="VBUS_1" pintype="passive"/>
-      <node ref="J1" pin="B9" pinfunction="VBUS_2" pintype="passive"/>
+      <node ref="J1" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="B9" pinfunction="VBUS" pintype="passive"/>
       <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="VI" pintype="power_in"/>
@@ -720,8 +773,8 @@
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="J1" pin="A12" pinfunction="GND_1" pintype="passive"/>
-      <node ref="J1" pin="B12" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J1" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="B12" pinfunction="GND" pintype="passive"/>
       <node ref="J1" pin="MH1" pinfunction="MH1" pintype="passive"/>
       <node ref="J1" pin="MH2" pinfunction="MH2" pintype="passive"/>
       <node ref="J1" pin="MH3" pinfunction="MH3" pintype="passive"/>
@@ -730,6 +783,7 @@
       <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TP1" pin="2" pinfunction="2" pintype="passive"/>
@@ -746,24 +800,28 @@
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
     </net>
-    <net code="8" name="Net-(J1-CC1)">
-      <node ref="J1" pin="A5" pinfunction="CC1" pintype="passive"/>
+    <net code="8" name="Net-(D3-K)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(J1-CC1)">
+      <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
       <node ref="R2" pin="1" pintype="passive"/>
     </net>
-    <net code="9" name="Net-(J1-CC2)">
-      <node ref="J1" pin="B5" pinfunction="CC2" pintype="passive"/>
+    <net code="10" name="Net-(J1-CC2)">
+      <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
       <node ref="R1" pin="1" pintype="passive"/>
     </net>
-    <net code="10" name="unconnected-(J10-Pin_1-Pad1)">
+    <net code="11" name="unconnected-(J10-Pin_1-Pad1)">
       <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
     </net>
-    <net code="11" name="unconnected-(J10-Pin_2-Pad2)">
+    <net code="12" name="unconnected-(J10-Pin_2-Pad2)">
       <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
     </net>
-    <net code="12" name="unconnected-(J11-Pin_1-Pad1)">
+    <net code="13" name="unconnected-(J11-Pin_1-Pad1)">
       <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
     </net>
-    <net code="13" name="unconnected-(J11-Pin_2-Pad2)">
+    <net code="14" name="unconnected-(J11-Pin_2-Pad2)">
       <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
     </net>
   </nets>
