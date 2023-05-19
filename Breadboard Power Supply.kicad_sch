@@ -2039,6 +2039,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 777e3e67-11d4-454b-92c8-c02330fa4aec)
   )
+  (text "Feedback\n\n1) The middle bottom outline cuts the trace."
+    (at 177.8 25.4 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 7c8d4ea0-ba8f-4012-bfe2-959a59d751db)
+  )
   (text "1.8V Circuit" (at 58.42 123.825 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a3965505-589c-40fb-a91c-162f1ccc06fe)
