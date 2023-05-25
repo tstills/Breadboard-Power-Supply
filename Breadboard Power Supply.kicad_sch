@@ -2047,7 +2047,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 777e3e67-11d4-454b-92c8-c02330fa4aec)
   )
-  (text "Feedback\n\n1)  The middle bottom outline cuts the trace.\n2)  Make github.com/tstills 0.8mm high.\n3)  Take the USB pins out out of the solder stencil.\n4)  Make the USB-C mounting holes 15% smaller.\n5)  Move the C8 reference designator to the middle of the cap.\n6)  Move the C5 reference designator up a bit.\n7)  Get rid of the dot on the USB silkscreen.\n8)  Move the J1 reference designator to the bottom of the USB-C.\n9)  Move the 10uF caps down a bit so the reference designators are above and below.\n10) Update version numbers.\n11) Have a single LED."
+  (text "Feedback\n\n1)  XXX The middle bottom outline cuts the trace.\n2)  Make github.com/tstills 0.8mm high.\n3)  Take the USB pins out out of the solder stencil.\n4)  Make the USB-C mounting holes 15% smaller.\n5)  Move the C8 reference designator to the middle of the cap.\n6)  Move the C5 reference designator up a bit.\n7)  Get rid of the dot on the USB silkscreen.\n8)  Move the J1 reference designator to the bottom of the USB-C.\n9)  Move the 10uF caps down a bit so the reference designators are above and below.\n10) Update version numbers.\n11) Have a single LED."
     (at 177.8 41.91 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7c8d4ea0-ba8f-4012-bfe2-959a59d751db)
