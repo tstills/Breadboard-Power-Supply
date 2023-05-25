@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,(7.0.0-0)*%
-%TF.CreationDate,2023-05-14T13:41:57-06:00*%
+%TF.CreationDate,2023-05-25T14:02:10-06:00*%
 %TF.ProjectId,Breadboard Power Supply,42726561-6462-46f6-9172-6420506f7765,v7*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Bot*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (7.0.0-0)) date 2023-05-14 13:41:57*
+G04 Created by KiCad (PCBNEW (7.0.0-0)) date 2023-05-25 14:02:10*
 %MOMM*%
 %LPD*%
 G01*
@@ -32,7 +32,7 @@ G04 Aperture macros list end*
 %ADD10C,1.830000*%
 %ADD11R,1.700000X1.700000*%
 %ADD12O,1.700000X1.700000*%
-%ADD13C,1.610000*%
+%ADD13C,1.450000*%
 %ADD14RoundRect,0.250000X0.900000X-1.000000X0.900000X1.000000X-0.900000X1.000000X-0.900000X-1.000000X0*%
 G04 APERTURE END LIST*
 D10*
