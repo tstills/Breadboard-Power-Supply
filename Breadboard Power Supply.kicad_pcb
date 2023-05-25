@@ -984,8 +984,8 @@
     (property "Sheetname" "")
     (path "/3ca803af-21c5-4e0e-8715-86fd10c9c946")
     (attr smd)
-    (fp_text reference "J1" (at 4.955 -0.803 unlocked) (layer "F.SilkS")
-        (effects (font (size 1 1) (thickness 0.1)) (justify right))
+    (fp_text reference "J1" (at 0.002 -4.74 unlocked) (layer "F.SilkS")
+        (effects (font (size 1 1) (thickness 0.1)) (justify top))
       (tstamp 93d8ffce-4974-458b-a88e-bcc94af830e7)
     )
     (fp_text value "USB-C" (at 0 -7.239 180 unlocked) (layer "F.Fab")
@@ -1058,6 +1058,11 @@
       (net 1 "GND") (pinfunction "MH3") (pintype "passive") (tstamp 1a6e2bfd-9ed1-4e7a-a545-0850afe88ae8))
     (pad "MH4" thru_hole circle (at 4.32 -2.698 180) (size 1.45 1.45) (drill 0.96) (layers "*.Cu" "*.Mask")
       (net 1 "GND") (pinfunction "MH4") (pintype "passive") (tstamp 6fae6568-832e-44e7-93da-91ff218afbd1))
+    (model "${KIPRJMOD}/My-Local-Footprints/USB-C Surface Mount.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" (layer "F.Cu")
