@@ -2692,7 +2692,7 @@
     (property "Reference" "R3" (at 144.145 50.8 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "330Ω" (at 144.145 53.34 0)
+    (property "Value" "470Ω" (at 144.145 53.34 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 141.224 52.324 90)
