@@ -6,8 +6,8 @@
 
   (title_block
     (title "Breadboard Power Supply")
-    (date "2023-06-08")
-    (rev "v9")
+    (date "2023-06-21")
+    (rev "v10")
   )
 
   (lib_symbols
@@ -2068,7 +2068,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0e1c7e51-ed95-4db3-955b-efe7a64e21d4)
   )
-  (text "To Do\n\n1) XXX Move the R1 reference designator away from the USB-C mounting hole.\n2) Use variable voltage regulators.\n3) Update version numbers.\n4) XXX Get rid of local libraries.\n5) Move the via under the \"p\" in supply."
+  (text "To Do\n\n1) XXX Move the R1 reference designator away from the USB-C mounting hole.\n2) XXX Use variable voltage regulators.\n3) Update version numbers.\n4) XXX Get rid of local libraries.\n5) Move the via under the \"p\" in supply."
     (at 182.88 38.1 0)
     (effects (font (size 1.27 1.27)) (justify left bottom) (href "#1"))
     (uuid 26942b07-2cd3-482f-a6cb-b9b4407b03b2)
