@@ -1947,7 +1947,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0e1c7e51-ed95-4db3-955b-efe7a64e21d4)
   )
-  (text "To Do\n\n1) XXX Move the R1 reference designator away from the USB-C mounting hole.\n2) XXX Use variable voltage regulators.\n3) XXX Update version numbers.\n4) XXX Get rid of local libraries.\n5) Doublecheck fill areas.\n6) Finish mechanical changes.\n7) XXX Change the order of the power headers.\n8) Get rid of Zener diode."
+  (text "To Do\n\n1) XXX Move the R1 reference designator away from the USB-C mounting hole.\n2) XXX Use variable voltage regulators.\n3) XXX Update version numbers.\n4) XXX Get rid of local libraries.\n5) Doublecheck fill areas.\n6) Finish mechanical changes.\n7) XXX Change the order of the power headers.\n8) XXX Get rid of the Zener diode.\n9) There's a via in the word Supply on the back silkscreen."
     (at 177.8 48.26 0)
     (effects (font (size 1.27 1.27)) (justify left bottom) (href "#1"))
     (uuid 26942b07-2cd3-482f-a6cb-b9b4407b03b2)
