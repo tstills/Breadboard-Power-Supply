@@ -524,7 +524,7 @@
       (net 17 "Net-(U2-ADJ)") (pinfunction "2") (pintype "passive") (tstamp 906b7668-bec9-4830-a0fb-eeb5ba756435))
     (pad "3" smd rect (at -1.175 3 90) (size 1.6 2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "3") (pintype "passive") (tstamp 69e5c6d9-bd17-40c4-aff3-66e39c1cddb0))
-    (model "ST-4ETB103.stp"
+    (model "${KIPRJMOD}/Local-Footprints.pretty/ST4ETB103 Potentiometer.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -749,7 +749,7 @@
       (net 16 "Net-(U1-ADJ)") (pinfunction "2") (pintype "passive") (tstamp b8ea62e4-117c-44b7-8331-d7a95b4b73cb))
     (pad "3" smd rect (at -1.175 3 270) (size 1.6 2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "3") (pintype "passive") (tstamp ca11304e-7362-45e8-9ac6-bbe4aadccd28))
-    (model "ST-4ETB103.stp"
+    (model "${KIPRJMOD}/Local-Footprints.pretty/ST4ETB103 Potentiometer.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -994,6 +994,11 @@
       (net 1 "GND") (pinfunction "MH3") (pintype "passive") (tstamp 30d3daba-58cd-4847-9b69-3b8313d0ecf4))
     (pad "MH4" thru_hole circle (at 4.32 -2.694 180) (size 1.45 1.45) (drill 0.96) (layers "*.Cu" "*.Mask")
       (net 1 "GND") (pinfunction "MH4") (pintype "passive") (tstamp 334a0c40-9843-4c01-8648-091456428160))
+    (model "/Users/tim/Documents/KiCad/Global-Footprints.pretty/USB-C Power Only.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
