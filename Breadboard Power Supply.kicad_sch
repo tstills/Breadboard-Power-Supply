@@ -6,8 +6,8 @@
 
   (title_block
     (title "Breadboard Power Supply")
-    (date "2023-06-28")
-    (rev "v10")
+    (date "2023-07-18")
+    (rev "v11")
   )
 
   (lib_symbols
@@ -2235,7 +2235,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a3965505-589c-40fb-a91c-162f1ccc06fe)
   )
-  (text "To Do\n\n1) Update version numbers." (at 222.25 26.035 0)
+  (text "To Do\n\n1) XXX Update version numbers." (at 222.25 26.035 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid aee96528-d588-45f1-8c53-bca6ce605717)
   )
