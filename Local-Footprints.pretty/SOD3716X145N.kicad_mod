@@ -4,7 +4,7 @@
   (tags "Diode")
   (attr smd)
   (fp_text reference "D**" (at 0 0) (layer "F.SilkS")
-      (effects (font (size 1.27 1.27) (thickness 0.254)))
+      (effects (font (size 1 1) (thickness 0.2) bold))
     (tstamp bd2bec65-d8af-4414-8fe8-2a8246e9ab84)
   )
   (fp_text value "SOD3716X145N" (at 0 0) (layer "F.SilkS") hide
