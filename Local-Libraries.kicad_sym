@@ -45,7 +45,7 @@
         (name "SW" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 13.97 -12.065 90) (length 2.54)
+      (pin passive line (at 13.97 -12.065 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
