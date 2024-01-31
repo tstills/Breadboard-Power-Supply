@@ -273,7 +273,7 @@
     (property "ki_keywords" "diode TVS voltage suppressor")
     (path "/a8225ad5-49e7-48e8-8f55-4777ffe4ea4e")
     (attr smd)
-    (fp_text reference "D2" (at 0 0) (layer "F.SilkS")
+    (fp_text reference "D2" (at 0 0) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.2) bold))
       (tstamp 28d71811-797b-4c31-b8f1-d0f543f1c849)
     )
