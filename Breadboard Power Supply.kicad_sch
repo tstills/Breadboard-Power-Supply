@@ -6,8 +6,8 @@
 
   (title_block
     (title "Breadboard Power Supply")
-    (date "2024-01-22")
-    (rev "v1.14")
+    (date "2024-01-31")
+    (rev "v1.15")
   )
 
   (lib_symbols
