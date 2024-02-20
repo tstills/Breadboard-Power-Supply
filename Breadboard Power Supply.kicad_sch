@@ -3681,7 +3681,7 @@
     (property "Value" "1N5819" (at 201.93 102.87 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Local-Footprints:SODFL3518X115N" (at 201.93 110.49 0)
+    (property "Footprint" "Global-Footprints:Schottky Diode" (at 201.93 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.vishay.com/docs/88301/15ke.pdf" (at 203.2 105.41 0)
