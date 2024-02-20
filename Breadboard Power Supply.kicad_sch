@@ -4300,7 +4300,7 @@
     (property "Value" "LED" (at 121.92 48.5775 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 116.84 46.99 0)
+    (property "Footprint" "Global-Footprints:LED_0603" (at 116.84 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 116.84 46.99 0)
