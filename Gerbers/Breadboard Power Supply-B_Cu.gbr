@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,8.0.1*%
-%TF.CreationDate,2024-03-17T19:35:18-06:00*%
+%TF.CreationDate,2024-03-17T20:14:19-06:00*%
 %TF.ProjectId,Breadboard Power Supply,42726561-6462-46f6-9172-6420506f7765,v10*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L4,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.1) date 2024-03-17 19:35:18*
+G04 Created by KiCad (PCBNEW 8.0.1) date 2024-03-17 20:14:19*
 %MOMM*%
 %LPD*%
 G01*
@@ -272,6 +272,7 @@ X101981000Y-85217000D03*
 %TO.N,+1V8*%
 X112141000Y-77343000D03*
 %TO.N,+12V*%
+X116713000Y-77831000D03*
 X108458000Y-88773000D03*
 %TO.N,VBUS*%
 X129866751Y-83088500D03*
