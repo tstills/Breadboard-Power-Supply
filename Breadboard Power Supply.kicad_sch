@@ -7,7 +7,7 @@
 	(title_block
 		(title "Breadboard Power Supply")
 		(date "2024-01-31")
-		(rev "v1.15")
+		(rev "v1.16")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
