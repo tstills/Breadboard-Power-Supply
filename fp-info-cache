@@ -1,4 +1,4 @@
-23181199951974057
+23181214844546260
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56707,13 +56707,6 @@ Connector
 5
 5
 Global-Footprints
-KEYSTONE_5020
-
-
-0
-1
-1
-Global-Footprints
 Keystone 1430
 
 
@@ -56721,19 +56714,19 @@ Keystone 1430
 2
 2
 Global-Footprints
-Keystone 5020
+LED 0603
 
 
 0
-1
-1
+2
+2
 Global-Footprints
-LED_0603
+Mounted Test Point
 
 
 0
-2
-2
+1
+1
 Global-Footprints
 RPi_Hat_Mounting_Hole
 Mounting hole, Befestigungsbohrung, 2,7mm, No Annular, Kein Restring,
@@ -56748,6 +56741,13 @@ Through hole pin header THT 2x20 2.54mm double row
 0
 40
 40
+Global-Footprints
+SMT Pushbutton
+PTS815SJG250SMTRLFS-1
+Switch
+0
+4
+4
 Global-Footprints
 Schottky Diode
 SOD-123F
