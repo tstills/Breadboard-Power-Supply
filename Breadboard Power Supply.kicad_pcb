@@ -1375,7 +1375,7 @@
 			)
 		)
 		(property "Value" "1kΩ"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "31469731-c49c-4a63-9ce1-f6bea4bcb14f")
@@ -1549,7 +1549,7 @@
 			(uuid "56b77f2d-ddf7-4fc4-8794-2458f8e5e115")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "eab92bee-fc23-4397-a1e2-5d7b3b852aaa")
 			(effects
@@ -11748,6 +11748,14 @@
 		(uuid "91e06160-dc17-484c-8eda-c64d8a30b446")
 	)
 	(segment
+		(start 135.253 77.089)
+		(end 134.493 77.089)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 13)
+		(uuid "933d1415-dedd-4b77-97aa-6310e65f97be")
+	)
+	(segment
 		(start 106.873 83.947)
 		(end 106.873 85.029)
 		(width 0.75)
@@ -11810,6 +11818,14 @@
 		(layers "F.Cu" "B.Cu")
 		(net 13)
 		(uuid "608e9dbd-23fb-414b-975e-1e33035e7fa9")
+	)
+	(via
+		(at 134.493 77.089)
+		(size 0.8)
+		(drill 0.4)
+		(layers "F.Cu" "B.Cu")
+		(net 13)
+		(uuid "8ddfb655-7581-4bc2-bd47-971dca6f4e74")
 	)
 	(via
 		(at 126.365 83.439)
