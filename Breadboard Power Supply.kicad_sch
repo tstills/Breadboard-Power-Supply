@@ -6,8 +6,8 @@
 	(paper "A")
 	(title_block
 		(title "Breadboard Power Supply")
-		(date "2024-01-31")
-		(rev "v1.16")
+		(date "2024-06-21")
+		(rev "v1.17")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
@@ -6077,7 +6077,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Local-Footprints:IND_WE-TPC_SMT_2828_WRE"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 185.42 105.41 0)
 			(effects
 				(font
@@ -6086,7 +6086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_decoupling_mlz2012_en.pdf"
 			(at 185.42 105.41 0)
 			(effects
 				(font
@@ -6104,7 +6104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Würth Elektronik"
+		(property "Manufacturer" "TDK"
 			(at 185.42 105.41 0)
 			(effects
 				(font
@@ -6113,7 +6113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part Num" "744025220"
+		(property "Mfg Part Num" "MLZ2012P220WT000"
 			(at 185.42 105.41 0)
 			(effects
 				(font
@@ -6122,7 +6122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key Part Num" "732-2619-1-ND"
+		(property "Digi-Key Part Num" "445-15751-1-ND"
 			(at 185.42 105.41 0)
 			(effects
 				(font
@@ -6789,7 +6789,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47kΩ"
+		(property "Value" "22kΩ"
 			(at 213.36 113.03 0)
 			(effects
 				(font
@@ -6951,7 +6951,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1kΩ"
+		(property "Value" "2.2kΩ"
 			(at 118.745 39.37 0)
 			(effects
 				(font
@@ -7327,7 +7327,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1kΩ"
+		(property "Value" "0Ω"
 			(at 89.535 154.94 0)
 			(effects
 				(font
@@ -9422,7 +9422,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "680Ω"
+		(property "Value" "100Ω"
 			(at 89.535 146.05 0)
 			(effects
 				(font
@@ -9500,7 +9500,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.2kΩ"
+		(property "Value" "22kΩ"
 			(at 213.36 121.92 0)
 			(effects
 				(font
@@ -10502,7 +10502,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1kΩ"
+		(property "Value" "150Ω"
 			(at 89.535 135.255 0)
 			(effects
 				(font
