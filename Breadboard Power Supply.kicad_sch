@@ -9422,7 +9422,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100Ω"
+		(property "Value" "220Ω"
 			(at 89.535 146.05 0)
 			(effects
 				(font
@@ -9459,6 +9459,24 @@
 			)
 		)
 		(property "Digi-Key Part Num" "10-ERJ-UP3F5101VCT-ND"
+			(at 87.63 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 87.63 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part Num" ""
 			(at 87.63 144.78 0)
 			(effects
 				(font
