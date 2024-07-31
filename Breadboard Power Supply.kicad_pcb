@@ -7819,7 +7819,7 @@
 			)
 		)
 		(property "Digi-Key Part Num" "445-15751-1-ND"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f223d2b0-dadf-4e9b-af6b-4197c1a29996")
@@ -7832,7 +7832,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "bfce8e1c-7437-48dc-a361-19732dab19f6")
@@ -7845,7 +7845,7 @@
 			)
 		)
 		(property "Mfg Part Num" "MLZ2012P220WT000"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5af75f0c-a915-4b5e-855d-94716e77e5ee")
@@ -13046,6 +13046,14 @@
 		(uuid "603d50e7-73aa-4105-9a2d-f9980e0936f1")
 	)
 	(segment
+		(start 120.523 77.343)
+		(end 119.507 77.343)
+		(width 0.75)
+		(layer "F.Cu")
+		(net 13)
+		(uuid "60a86ff5-99e0-4dda-8077-a801b5f27fcf")
+	)
+	(segment
 		(start 150.409 83.693)
 		(end 150.155 83.439)
 		(width 0.75)
@@ -13076,6 +13084,14 @@
 		(layer "F.Cu")
 		(net 13)
 		(uuid "ca93e0de-d7c6-4d33-ab0b-2be375bc8ecf")
+	)
+	(segment
+		(start 120.777 77.597)
+		(end 120.523 77.343)
+		(width 0.75)
+		(layer "F.Cu")
+		(net 13)
+		(uuid "e00ea360-6a5f-44ed-8461-3120af5bbd74")
 	)
 	(segment
 		(start 126.752 80.778)
@@ -13150,14 +13166,6 @@
 		(uuid "b6c0e08a-7dbc-4608-8dce-4c62a3d53ac8")
 	)
 	(segment
-		(start 120.147 76.967)
-		(end 119.761 76.967)
-		(width 0.75)
-		(layer "B.Cu")
-		(net 13)
-		(uuid "0c788a7f-c87a-4c8d-b55a-0143ae31e0c7")
-	)
-	(segment
 		(start 119.629 76.835)
 		(end 119.761 76.967)
 		(width 0.75)
@@ -13166,12 +13174,20 @@
 		(uuid "510af52d-5b20-4ddc-b4b1-9a8362ad6213")
 	)
 	(segment
-		(start 120.777 77.597)
+		(start 119.761 76.967)
 		(end 120.147 76.967)
 		(width 0.75)
 		(layer "B.Cu")
 		(net 13)
-		(uuid "dce7dac0-985f-4489-9dba-a5bf0ec42941")
+		(uuid "b0724088-efa2-49eb-aeeb-dc52d8eb8a2a")
+	)
+	(segment
+		(start 120.147 76.967)
+		(end 120.777 77.597)
+		(width 0.75)
+		(layer "B.Cu")
+		(net 13)
+		(uuid "de89987b-1af9-4a3c-ba30-f7bc51850f5c")
 	)
 	(segment
 		(start 117.729 76.835)
