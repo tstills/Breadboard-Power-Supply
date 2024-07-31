@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.2-1"
+      "Version": "8.0.4"
     },
-    "CreationDate": "2024-07-10T15:29:45-04:00"
+    "CreationDate": "2024-07-30T20:34:19-06:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "Breadboard Power Supply",
       "GUID": "42726561-6462-46f6-9172-6420506f7765",
-      "Revision": "v10"
+      "Revision": "v1"
     },
     "Size": {
       "X": 53.694,
@@ -27,9 +27,7 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.25,
-      "TrackToRegion": 0.508,
-      "RegionToRegion": 0.508
+      "MinLineWidth": 0.25
     },
     {
       "Layers": "Inner",

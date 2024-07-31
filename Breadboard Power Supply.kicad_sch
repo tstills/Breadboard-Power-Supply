@@ -6,8 +6,8 @@
 	(paper "A")
 	(title_block
 		(title "Breadboard Power Supply")
-		(date "2024-06-21")
-		(rev "v1.17")
+		(date "2024-07-30")
+		(rev "v1")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
