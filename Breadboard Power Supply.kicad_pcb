@@ -6460,7 +6460,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at -0.028 0.508 360)
+			(at -0.028 0.508 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ddb491fc-1347-41a7-8fa8-0233e8349e0a")
@@ -6473,7 +6473,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f2ef4a8f-42f3-469a-abbd-341486441b8b")
@@ -6511,7 +6511,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 115.669 77.089 360)
+			(at 115.669 77.089 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8290288c-8214-42de-a53b-dc9b53675314")
@@ -6523,7 +6523,7 @@
 			)
 		)
 		(property "Digi-Key Part Num" "490-14603-1-ND"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0ac4532a-8e4e-48c8-8f2f-1f95a2bf0e08")
@@ -6535,7 +6535,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b29dd122-7277-4c71-a3d3-c44a8037582e")
@@ -6547,7 +6547,7 @@
 			)
 		)
 		(property "Mfg Part Num" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "17f29f95-3631-4438-850a-b9bee0d79f9a")
@@ -6664,7 +6664,7 @@
 			(uuid "897ee56a-05fa-4a8d-9731-9c8f29a6f80f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "35305b21-db2d-43c6-a094-1959a9ef64f3")
 			(effects
