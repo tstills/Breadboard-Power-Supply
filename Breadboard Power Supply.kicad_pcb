@@ -10804,7 +10804,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C10"
-			(at -1.59 0 360)
+			(at -1.59 0 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "65f6b86f-22ba-41c3-ad60-d3e41b800ec3")
@@ -10817,7 +10817,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 -1.68 360)
+			(at 0 -1.68 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5bb080c5-8ee6-4846-942d-a7c8b3aae6ce")
@@ -10858,7 +10858,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
-			(at 120.203 -83.185 360)
+			(at 120.203 -83.185 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "53f1b2d9-c830-449e-a637-ab494cd080b5")
@@ -10871,7 +10871,7 @@
 			)
 		)
 		(property "Digi-Key Part Num" "478-3130-1-ND"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "13b072ff-7132-41f5-992e-65642b8f5567")
@@ -10884,7 +10884,7 @@
 			)
 		)
 		(property "Manufacturer" "Kyocera"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "fb813e69-1159-4ccf-b56d-3fe145146b91")
@@ -10897,7 +10897,7 @@
 			)
 		)
 		(property "Mfg Part Num" "TCJB107M006R0070"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c157df4e-1a4b-4932-92ae-fb51fd683a30")
@@ -11015,7 +11015,7 @@
 			(uuid "d546d0b4-6b2f-4b51-9eb1-fa1c5118d402")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "99eac12c-629a-4155-b944-fc499d905a16")
 			(effects
@@ -11485,7 +11485,7 @@
 		)
 	)
 	(gr_text "+"
-		(at 151.384 100.711 0)
+		(at 152.139 100.711 0)
 		(layer "F.SilkS")
 		(uuid "30b3f2c5-f399-4db3-9d2b-9a8b1a30da20")
 		(effects
@@ -11536,7 +11536,7 @@
 		)
 	)
 	(gr_text "-"
-		(at 148.844 100.711 0)
+		(at 149.6 100.711 0)
 		(layer "F.SilkS")
 		(uuid "6d6b9c13-bdbe-45ec-958d-82ceb2b09d01")
 		(effects
@@ -11574,7 +11574,7 @@
 		)
 	)
 	(gr_text "+"
-		(at 107.696 100.711 0)
+		(at 106.941 100.711 0)
 		(layer "F.SilkS")
 		(uuid "d06193f5-400a-4817-929f-91a816824411")
 		(effects
@@ -11612,7 +11612,7 @@
 		)
 	)
 	(gr_text "-"
-		(at 105.156 100.711 0)
+		(at 104.4 100.711 0)
 		(layer "F.SilkS")
 		(uuid "de55c5a2-5df9-4b9b-943c-465d247b0af1")
 		(effects
