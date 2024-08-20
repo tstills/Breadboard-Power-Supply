@@ -1274,7 +1274,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1500W unidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"
+			(property "Description" "1500W unidirectional TVS diode, DO-201AE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1283,7 +1283,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode TVS voltage suppressor"
+			(property "ki_keywords" "transient voltage suppressor TRANSZORB®"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1456,7 +1456,43 @@
 				)
 				(polyline
 					(pts
+						(xy -1.27 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 3.81 0)
 					)
 					(stroke
 						(width 0)
@@ -1506,7 +1542,7 @@
 			(symbol "LED 0603_1_1"
 				(pin passive line
 					(at -3.81 0 0)
-					(length 2.54)
+					(length 2.54) hide
 					(name ""
 						(effects
 							(font
@@ -1524,7 +1560,7 @@
 				)
 				(pin passive line
 					(at 3.81 0 180)
-					(length 2.54)
+					(length 2.54) hide
 					(name ""
 						(effects
 							(font
@@ -1542,36 +1578,27 @@
 				)
 			)
 		)
-		(symbol "Global-Symbols:USB-C_Power_Only"
+		(symbol "Global-Symbols:USB-C Power Only"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 13.97 0)
+				(at 0 16.002 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "USB-C Power Only"
+				(at -0.508 13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
+			(property "Footprint" "Global-Footprints:USB-C Power Only"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1580,7 +1607,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "https://www.molex.com/webdocs/datasheets/pdf/en-us/2171750001_IO_CONNECTORS.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1589,7 +1616,43 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB-C_Power_Only_0_1"
+			(property "Description" "USB-C Power Only"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Molex"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfg Part Num" "217175-0001"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digi-Key Part Num" "900-2171750001CT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB-C Power Only_0_1"
 				(rectangle
 					(start -10.16 12.7)
 					(end 10.16 -12.7)
@@ -1790,7 +1853,7 @@
 					)
 				)
 			)
-			(symbol "USB-C_Power_Only_1_1"
+			(symbol "USB-C Power Only_1_1"
 				(pin passive line
 					(at -1.27 -17.78 90)
 					(length 5.08)
@@ -8372,6 +8435,125 @@
 		)
 	)
 	(symbol
+		(lib_id "Global-Symbols:USB-C Power Only")
+		(at 64.77 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8911339c-de3c-4c79-a0c1-45837087377f")
+		(property "Reference" "J1"
+			(at 64.77 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB-C Power Only"
+			(at 64.77 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Global-Footprints:USB-C Power Only"
+			(at 64.77 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/webdocs/datasheets/pdf/en-us/2171750001_IO_CONNECTORS.pdf"
+			(at 64.77 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB-C Power Only"
+			(at 64.77 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 64.77 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part Num" "217175-0001"
+			(at 64.77 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Num" "900-2171750001CT-ND"
+			(at 64.77 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A12"
+			(uuid "386298ac-1ab6-4332-ad5d-502b13023c71")
+		)
+		(pin "MH1"
+			(uuid "15eea2b7-4597-40e8-a789-641688ffe8a2")
+		)
+		(pin "A5"
+			(uuid "6ebb34a5-5b9e-4c31-80e2-6ea4686ed477")
+		)
+		(pin "MH2"
+			(uuid "c6ed238e-2dfe-4f4b-a5bc-bb1aab517a5a")
+		)
+		(pin "MH3"
+			(uuid "cd746b0f-cc04-4a51-afb5-bc1a37e84050")
+		)
+		(pin "MH4"
+			(uuid "05d7f8a0-15fe-4536-bd00-0249eff78d93")
+		)
+		(pin "B12"
+			(uuid "c7f1d503-da39-435f-bcab-5b4f4e22e524")
+		)
+		(pin "B5"
+			(uuid "695c5de1-c711-48c9-b1c6-5d3d9c751b86")
+		)
+		(pin "B9"
+			(uuid "e2247f49-ddf0-47b8-abce-a7bcb3649982")
+		)
+		(pin "A9"
+			(uuid "18f8c274-8171-4bf5-830c-b77f3664c7be")
+		)
+		(instances
+			(project ""
+				(path "/a474ae98-d5ea-4288-b242-cd0417157b2d"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 116.84 30.48 0)
 		(unit 1)
@@ -8697,102 +8879,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 237.49 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a3b7c5cc-0684-406e-be6f-66a9a1d71a2b")
-		(property "Reference" "C11"
-			(at 240.03 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 240.03 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
-			(at 237.49 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 237.49 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 237.49 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key Part Num" "1572-1039-ND"
-			(at 237.49 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Cornell Dubilier Knowles"
-			(at 237.49 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part Num" "107CKE025MEM"
-			(at 237.49 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b022dd95-f653-4cb0-b8a6-0010d819eb20")
-		)
-		(pin "2"
-			(uuid "3315bfb2-690f-46c4-8717-d6bd95fc3684")
-		)
-		(instances
-			(project "Breadboard Power Supply"
-				(path "/a474ae98-d5ea-4288-b242-cd0417157b2d"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1.5KExxA")
 		(at 201.93 105.41 0)
 		(mirror y)
@@ -8818,7 +8904,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Local-Footprints:SODFL3518X115N"
+		(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
 			(at 201.93 110.49 0)
 			(effects
 				(font
@@ -8836,7 +8922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1500W unidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"
+		(property "Description" "1500W unidirectional TVS diode, DO-201AE"
 			(at 201.93 105.41 0)
 			(effects
 				(font
@@ -9918,6 +10004,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 237.49 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce357841-a806-429d-8ea3-43b951b4f6f1")
+		(property "Reference" "C2"
+			(at 240.665 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 240.665 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 237.49 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 237.49 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Num" "478-TCP0J106M8RCT-ND"
+			(at 237.49 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41b55120-81fc-4250-97f5-f2f0aa681594")
+		)
+		(pin "2"
+			(uuid "cdd5339c-fe3d-4b86-af64-4e242dba827e")
+		)
+		(instances
+			(project "Breadboard Power Supply"
+				(path "/a474ae98-d5ea-4288-b242-cd0417157b2d"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 224.79 111.76 0)
 		(unit 1)
@@ -10313,124 +10477,6 @@
 			(project "Breadboard Power Supply"
 				(path "/a474ae98-d5ea-4288-b242-cd0417157b2d"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Global-Symbols:USB-C_Power_Only")
-		(at 64.77 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ddad73e2-6e9e-4500-ad8b-52970dfff19b")
-		(property "Reference" "J1"
-			(at 64.77 24.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB-C"
-			(at 64.77 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Global-Footprints:USB-C Power Only"
-			(at 64.77 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/webdocs/datasheets/pdf/en-us/2171750001_IO_CONNECTORS.pdf"
-			(at 64.77 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB-C Power Only"
-			(at 64.77 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Molex"
-			(at 64.77 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part Num" "217175-0001"
-			(at 64.77 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key Part Num" "900-2171750001CT-ND"
-			(at 64.77 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A12"
-			(uuid "5201fd93-b785-4aa0-aa41-a4d62f4e3e66")
-		)
-		(pin "A5"
-			(uuid "7342a25c-a55a-4222-90b8-2d3eeced7f22")
-		)
-		(pin "A9"
-			(uuid "85cb1bec-dc60-463a-ba30-84c4f7d1fac3")
-		)
-		(pin "B12"
-			(uuid "71db83b8-4bb5-4998-aa63-2d21e4b6c6b0")
-		)
-		(pin "B5"
-			(uuid "5f1f7b7c-de51-4527-8669-f6460cb24f84")
-		)
-		(pin "B9"
-			(uuid "7125b49d-5700-45d0-bb1e-0864abf4390b")
-		)
-		(pin "MH1"
-			(uuid "1e8384d7-68da-4388-bf54-ace6069fd6c3")
-		)
-		(pin "MH2"
-			(uuid "37148e8e-0355-4830-bb95-ef1e50e46660")
-		)
-		(pin "MH3"
-			(uuid "6609c932-4359-4132-b9db-be770bcd5ad8")
-		)
-		(pin "MH4"
-			(uuid "2944419e-c2d4-426e-bc8f-485856178a41")
-		)
-		(instances
-			(project "Breadboard Power Supply"
-				(path "/a474ae98-d5ea-4288-b242-cd0417157b2d"
-					(reference "J1")
 					(unit 1)
 				)
 			)
