@@ -8442,10 +8442,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8911339c-de3c-4c79-a0c1-45837087377f")
 		(property "Reference" "J1"
-			(at 64.77 22.86 0)
+			(at 64.77 24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8453,7 +8452,7 @@
 			)
 		)
 		(property "Value" "USB-C Power Only"
-			(at 64.77 25.4 0)
+			(at 64.77 26.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
