@@ -3224,7 +3224,7 @@
 			)
 		)
 	)
-	(footprint "Local-Footprints:SODFL3518X115N"
+	(footprint "Global-Footprints:SODFL3518X115N"
 		(layer "F.Cu")
 		(uuid "5ba61ead-a3b5-4074-8ea2-6987b6c8d4a4")
 		(at 119.507 80.645 180)
@@ -3234,7 +3234,7 @@
 			(at 0 0 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "91673a64-0dd7-4af7-9366-4be27da5c51e")
+			(uuid "b2519493-5a6d-4d2b-a996-0d7f9dd29f32")
 			(effects
 				(font
 					(size 1 1)
@@ -3247,7 +3247,7 @@
 			(at 0 0 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "85922e86-3f83-45e5-8628-183f0029947f")
+			(uuid "dcfc6626-12f1-4f41-aa44-7db6a4800dab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3255,11 +3255,11 @@
 				)
 			)
 		)
-		(property "Footprint" "Local-Footprints:SODFL3518X115N"
+		(property "Footprint" "Global-Footprints:SODFL3518X115N"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "78bf6d70-b78f-41fb-83b8-b74d48c80114")
+			(uuid "3dc4b41b-95fc-4e7f-bb56-b71d20005ebb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3271,7 +3271,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "050e98ac-8138-416c-ad61-30a3756b0f7c")
+			(uuid "139cea3d-53f6-4105-b5b9-66d382928ae8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3283,7 +3283,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1032b777-4e79-4256-b57a-99363551e2ce")
+			(uuid "2dd7001d-3d6f-4e92-8814-1b7473a9bfa4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3340,7 +3340,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "80d3735e-20fa-48cc-acde-865caee22f03")
+			(uuid "beb11954-c9b0-4f5e-b670-a074c60c6671")
 		)
 		(fp_line
 			(start -2.06 -0.9)
@@ -3350,7 +3350,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "701d4b62-cbf2-40cc-af88-de870997904d")
+			(uuid "c0c4e7f9-3265-4faf-9114-f55d95fcc269")
 		)
 		(fp_line
 			(start 2.21 1.1)
@@ -3360,7 +3360,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "e1590845-cefd-4947-85bf-b2f2befc7afe")
+			(uuid "34f7ff3c-8816-4bc8-93b5-3e4561afacde")
 		)
 		(fp_line
 			(start 2.21 -1.1)
@@ -3370,7 +3370,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3fd1a6d7-f3d5-40cd-a54e-5e64886840a2")
+			(uuid "85e8e75b-6467-4bed-8629-712c5df78ae3")
 		)
 		(fp_line
 			(start -2.21 1.1)
@@ -3380,7 +3380,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "038ef8ea-d2d0-44b1-ae23-942bde72a26b")
+			(uuid "2d15796f-ac20-4131-916e-c448ce4d6ada")
 		)
 		(fp_line
 			(start -2.21 -1.1)
@@ -3390,7 +3390,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "5636db22-d8aa-4a53-8eb4-68e67a6a9386")
+			(uuid "806ddbac-782c-4f59-8f3e-699ac0b1ca1c")
 		)
 		(fp_line
 			(start 1.35 0.9)
@@ -3400,7 +3400,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e259664a-7d22-4f20-84eb-93c1fa79a00f")
+			(uuid "75890807-c524-424b-8089-d131c606a1df")
 		)
 		(fp_line
 			(start 1.35 -0.9)
@@ -3410,7 +3410,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9e79dc0b-f29f-46cd-8c43-6791cb2ad106")
+			(uuid "53f7ba33-3cdd-47c2-870e-8ab69dd10a79")
 		)
 		(fp_line
 			(start -1.35 0.9)
@@ -3420,7 +3420,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "750561a7-cbee-4985-9af3-a1ded4dc036d")
+			(uuid "f7cfdd74-a014-4f03-bb75-0e34d9790da5")
 		)
 		(fp_line
 			(start -1.35 -0.34)
@@ -3430,7 +3430,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "88f3f4ff-370c-4956-860c-b4b3da1d7ef3")
+			(uuid "b7b0adb1-50c4-4dcc-8a23-3353a50df0db")
 		)
 		(fp_line
 			(start -1.35 -0.9)
@@ -3440,12 +3440,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a2a4ee1b-7aaa-43f3-a7a4-979dc7f93e46")
+			(uuid "67deaabc-4452-4cf8-9866-69db7af9cb86")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "e0d9e9e1-82a0-4a90-bffa-2f4262589878")
+			(uuid "7602b894-81b8-45e6-b374-305ad05b224e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3460,7 +3460,7 @@
 			(net 11 "+12V")
 			(pinfunction "A1")
 			(pintype "passive")
-			(uuid "b928ea7e-c8b5-4f48-95b5-b7df06bd3046")
+			(uuid "7b9af5d5-a2aa-4613-b6eb-5007ca4d5861")
 		)
 		(pad "2" smd rect
 			(at 1.5 0 180)
@@ -3469,7 +3469,7 @@
 			(net 15 "Net-(D1-A2)")
 			(pinfunction "A2")
 			(pintype "passive")
-			(uuid "0d050e3f-4d5e-444a-bdd2-6087f1e55d53")
+			(uuid "fd5202fd-f61a-46be-b8cc-82d2b4a11072")
 		)
 		(model "${KIPRJMOD}/Local-Footprints.pretty/1N5819HW-7-F.stp"
 			(offset
@@ -4190,7 +4190,7 @@
 			)
 		)
 	)
-	(footprint "Local-Footprints:SOT95P280X145-5N"
+	(footprint "Global-Footprints:SOT95P280X145-5N"
 		(layer "F.Cu")
 		(uuid "805d7803-c049-410b-8b6e-67b9479868cc")
 		(at 119.527 83.881)
@@ -4200,7 +4200,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "da6ca20e-c419-4b4d-a4b1-ef62af19865c")
+			(uuid "3023436b-52af-4636-af07-401330210b6a")
 			(effects
 				(font
 					(size 1 1)
@@ -4213,7 +4213,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "25a278b7-09e9-4d47-b0b6-cc1b9ef763bf")
+			(uuid "6d7a689e-ff38-4578-9664-743a5393e1e6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4221,45 +4221,40 @@
 				)
 			)
 		)
-		(property "Footprint" "Local-Footprints:SOT95P280X145-5N"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
+		(property "Footprint" "Global-Footprints:SOT95P280X145-5N"
+			(at 0 0 0)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "73959404-fa7c-4952-9bd6-59ece8d8ce18")
+			(uuid "afb06d3a-c94c-41a7-9985-f65c8fcfad4f")
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/AP3012KTR-G1.pdf"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
+			(at 0 0 0)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "155c1ec5-6734-46b8-9561-1d088e5f5aab")
+			(uuid "eb431187-8e74-4b96-9530-c729bb455e22")
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Description" "DiodesZetex AP3012KTR-G1, Step Up DC-DC Converter, 500mA, Adjustable, Maximum of 29 V, 5-Pin SOT-23"
-			(at 127.361 -81.087 90)
-			(layer "B.Fab")
+			(at 0 0 0)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "825f1897-138c-49e9-934c-66bd2b966e90")
+			(uuid "9ca310a9-eb0f-4b6e-80f6-4bbad9de17eb")
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Arrow Part Number" "AP3012KTR-G1"
@@ -4382,6 +4377,19 @@
 				)
 			)
 		)
+		(property "Digi-Key Part Number" "AP3012KTR-G1DICT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c97370e9-62eb-4676-861f-4721afb8e36f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/bb49f9fd-4652-437c-b23a-c878f522987f")
 		(sheetname "Root")
 		(sheetfile "Breadboard Power Supply.kicad_sch")
@@ -4394,7 +4402,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b61cd667-dc82-46dd-92cd-3573858432aa")
+			(uuid "212b5c4f-4495-4947-9bc0-31d1cf01c3d8")
 		)
 		(fp_line
 			(start -2.1 -1.76)
@@ -4404,7 +4412,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "99acabce-df33-45b5-896b-b5c7f9fb3f8a")
+			(uuid "67e5236e-72f8-4cd0-8ff2-2350cb4a1a95")
 		)
 		(fp_line
 			(start -2.1 1.76)
@@ -4414,7 +4422,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "ef3f6d67-f0e0-4cb9-a75f-0d6f0a83eeb3")
+			(uuid "30b909c4-d6c6-416c-90ab-38dcfe6ef18b")
 		)
 		(fp_line
 			(start 2.1 -1.76)
@@ -4424,7 +4432,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "61e54c7d-b9ae-4646-873f-f6309b917e07")
+			(uuid "a7c3b4a8-cbd3-4683-8069-b47e98edeb60")
 		)
 		(fp_line
 			(start 2.1 1.76)
@@ -4434,7 +4442,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a4f06c82-83f9-4327-9320-6943c4d5a4d6")
+			(uuid "eea9e9dd-9a95-464d-b356-2caf2c856a23")
 		)
 		(fp_line
 			(start -0.8 -1.46)
@@ -4444,7 +4452,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "09602d0d-3a61-44ae-89b1-d6ca7616e4b5")
+			(uuid "25d8a320-0d14-4163-b9ce-5a484cd02075")
 		)
 		(fp_line
 			(start -0.8 -0.51)
@@ -4454,7 +4462,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "04e33fd7-6074-45f0-95b3-006aa4db5814")
+			(uuid "a5d43160-d5f1-4ff3-9db0-76edd97bbf19")
 		)
 		(fp_line
 			(start -0.8 1.46)
@@ -4464,7 +4472,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d91f1e97-3de3-4667-9d9c-4f963aafe135")
+			(uuid "768f0280-9b9b-4742-a2d3-134a88ecc0da")
 		)
 		(fp_line
 			(start 0.8 -1.46)
@@ -4474,7 +4482,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c710e7f6-1530-4551-9724-f41b24c9cb11")
+			(uuid "66973650-9889-4113-9df3-f491acd3b90d")
 		)
 		(fp_line
 			(start 0.8 1.46)
@@ -4484,12 +4492,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5be79257-b7fe-4d80-bed3-9c01b771bd8d")
+			(uuid "0593eb6e-26ef-46fb-86d0-6531442b6dff")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "cf4db8e4-8512-489a-b9f0-1852cae22549")
+			(uuid "6342c5a7-fd0e-4e5a-a9fe-1ec90988c744")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4504,7 +4512,7 @@
 			(net 15 "Net-(D1-A2)")
 			(pinfunction "SW")
 			(pintype "passive")
-			(uuid "20e1a7ad-d02a-4ca1-aa1e-a01785a23375")
+			(uuid "6f4f70f9-ad09-49b1-9cdc-b2372e02dc3d")
 		)
 		(pad "2" smd rect
 			(at -1.25 0 90)
@@ -4513,7 +4521,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "940638a0-2577-40c6-a114-0804c20c1027")
+			(uuid "0b5aab45-38c7-4329-9a3f-d26e087a8b73")
 		)
 		(pad "3" smd rect
 			(at -1.25 0.95 90)
@@ -4522,7 +4530,7 @@
 			(net 12 "Net-(IC1-FB)")
 			(pinfunction "FB")
 			(pintype "passive")
-			(uuid "a40e9135-ff1f-4771-b8b6-8d8a0179c73b")
+			(uuid "7862dcc5-7ab2-4268-b093-4ddb6eb5ca1e")
 		)
 		(pad "4" smd rect
 			(at 1.25 0.95 90)
@@ -4531,7 +4539,7 @@
 			(net 13 "VBUS")
 			(pinfunction "~{SHDN}")
 			(pintype "passive")
-			(uuid "213cd14c-7292-404d-a598-52836e9d3598")
+			(uuid "1cc6bd4a-ec60-4eb5-b0c9-c358c516950b")
 		)
 		(pad "5" smd rect
 			(at 1.25 -0.95 90)
@@ -4540,7 +4548,7 @@
 			(net 13 "VBUS")
 			(pinfunction "VIN")
 			(pintype "power_in")
-			(uuid "fee1da55-a942-48b2-8bc8-fe12e3a9cb39")
+			(uuid "4ea5f604-97c4-4a12-9a5b-736f150d1a9b")
 		)
 		(model "${KIPRJMOD}/Local-Footprints.pretty/AP3012KTR-G1.stp"
 			(offset
