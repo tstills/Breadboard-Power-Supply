@@ -117,7 +117,7 @@
 			)
 		)
 		(symbol "Resettable Fuse 200mA_1_1"
-			(pin passive line
+			(pin power_in line
 				(at 0 0 0)
 				(length 2.54)
 				(name "1"
@@ -135,7 +135,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 10.16 0 180)
 				(length 2.54)
 				(name "2"

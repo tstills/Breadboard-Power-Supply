@@ -1,4 +1,4 @@
-24623038296409787
+24626654752197286
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -58051,13 +58051,6 @@ Connector
 5
 5
 Global-Footprints
-KEYSTONE_5020
-
-
-0
-1
-1
-Global-Footprints
 Keystone 1430
 
 
@@ -58072,12 +58065,12 @@ LED 0603
 2
 2
 Global-Footprints
-LM1117-ADJ
-SOT−223 CASE 318H  ISSUE B
-Integrated Circuit
+Mounted Test Point
+
+
 0
-4
-4
+1
+1
 Global-Footprints
 RPi Hat Mounting Hole
 Mounting hole, Befestigungsbohrung, 2,7mm, No Annular, Kein Restring,
@@ -58100,12 +58093,26 @@ Switch
 4
 4
 Global-Footprints
-SOT-223
+SODFL3518X115N
+SOD-123F
+Schottky Diode
+0
+2
+2
+Global-Footprints
+SOT-23-5_DIO
+
+AP3012KTR-G1 
+0
+5
+5
+Global-Footprints
+SOT_223
 
 
 0
-0
-0
+4
+3
 Global-Footprints
 Schottky Diode
 SOD-123F
@@ -65677,6 +65684,13 @@ LED_THT
 LED_VCCLite_5381H7_6.35x6.35mm
 Yellow 5381 Series LED VCCLite https://vcclite.com/wp-content/uploads/wpallimport/files/files/5381Series.pdf http://static.vcclite.com/pdf/Mounting%20Hole%20Pattern%202.pdf
 Yellow 5381 Series LED
+0
+2
+2
+Local Footprints
+Resettable Fuse 200mA
+
+0ZCJ0020FF2E 
 0
 2
 2

@@ -1367,48 +1367,51 @@
 			)
 		)
 		(symbol "Global-Symbols:AP3012KTR-G1"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 24.13 7.62 0)
+				(at 23.622 -11.684 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
 			(property "Value" "AP3012KTR-G1"
-				(at 24.13 5.08 0)
+				(at 23.622 -14.224 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Global-Footprints:SOT95P280X145-5N"
-				(at 24.13 -94.92 0)
+			(property "Footprint" "Global-Footprints:SOT-23-5_DIO"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/AP3012KTR-G1.pdf"
-				(at 24.13 -194.92 0)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP3012.pdf"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "DiodesZetex AP3012KTR-G1, Step Up DC-DC Converter, 500mA, Adjustable, Maximum of 29 V, 5-Pin SOT-23"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1417,98 +1420,104 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "1.45"
-				(at 24.13 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Diodes Incorporated"
-				(at 24.13 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "AP3012KTR-G1"
-				(at 24.13 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "621-AP3012KTR-G1"
-				(at 24.13 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP3012KTR-G1?qs=x6A8l6qLYDDQ%252B3KTjfzHFg%3D%3D"
-				(at 24.13 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "AP3012KTR-G1"
-				(at 24.13 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ap3012ktr-g1/diodes-incorporated?region=nac"
-				(at 24.13 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Digi-Key Part Number" "AP3012KTR-G1DICT-ND"
+			(property "Manufacturer" "Diodes, Inc."
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfg Part Num" "AP3012KTR-G1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey Part Num" "AP3012KTR-G1DICT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "AP3012KTR-G1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT-23-5_DIO SOT-23-5_DIO-M SOT-23-5_DIO-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AP3012KTR-G1_0_1"
+				(polyline
+					(pts
+						(xy 11.43 -10.16) (xy 29.21 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 5.08) (xy 11.43 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 29.21 -10.16) (xy 29.21 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 29.21 5.08) (xy 11.43 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
 			(symbol "AP3012KTR-G1_1_1"
-				(rectangle
-					(start 5.08 5.715)
-					(end 22.86 -9.525)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(pin passive line
-					(at 20.32 8.255 270)
+					(at 26.67 7.62 270)
 					(length 2.54)
 					(name "SW"
 						(effects
@@ -1525,8 +1534,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 13.97 -12.065 90)
+				(pin power_out line
+					(at 20.32 -12.7 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -1544,7 +1553,7 @@
 					)
 				)
 				(pin passive line
-					(at 25.4 -1.905 180)
+					(at 31.75 -2.54 180)
 					(length 2.54)
 					(name "FB"
 						(effects
@@ -1561,10 +1570,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 -1.905 0)
+				(pin input line
+					(at 8.89 -2.54 0)
 					(length 2.54)
-					(name "~{SHDN}"
+					(name "/SHDN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1580,7 +1589,7 @@
 					)
 				)
 				(pin power_in line
-					(at 7.62 8.255 270)
+					(at 13.97 7.62 270)
 					(length 2.54)
 					(name "VIN"
 						(effects
@@ -2456,7 +2465,7 @@
 				)
 			)
 			(symbol "Resettable Fuse 200mA_1_1"
-				(pin passive line
+				(pin power_in line
 					(at 0 0 0)
 					(length 2.54)
 					(name "1"
@@ -2474,7 +2483,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 10.16 0 180)
 					(length 2.54)
 					(name "2"
@@ -2621,312 +2630,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Resettable Fuse 200mA_1"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 5.08 3.175 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "200mA Fuse"
-				(at 5.08 -3.175 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "Local Footprints:Resettable Fuse 200mA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.belfuse.com/media/datasheets/products/circuit-protection/ds-cp-0zcj-series.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Bel Fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfg Part Num" "0ZCJ0020FF2E"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DigiKey Part Num" "5923-0ZCJ0020FF2ECT-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "0ZCJ_BEL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Resettable Fuse 200mA_1_0_1"
-				(arc
-					(start 5.08 0)
-					(mid 3.81 1.2645)
-					(end 2.54 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 5.08 0)
-					(mid 6.35 -1.2645)
-					(end 7.62 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Resettable Fuse 200mA_1_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Resettable Fuse 200mA_2"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 5.08 3.175 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "200mA Fuse"
-				(at 5.08 -3.175 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "Local Footprints:Resettable Fuse 200mA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.belfuse.com/media/datasheets/products/circuit-protection/ds-cp-0zcj-series.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Bel Fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfg Part Num" "0ZCJ0020FF2E"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DigiKey Part Num" "5923-0ZCJ0020FF2ECT-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "0ZCJ_BEL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Resettable Fuse 200mA_2_0_1"
-				(arc
-					(start 5.08 0)
-					(mid 3.81 1.2645)
-					(end 2.54 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 5.08 0)
-					(mid 6.35 -1.2645)
-					(end 7.62 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Resettable Fuse 200mA_2_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3886,6 +3589,12 @@
 		(uuid "a637e5e3-682b-40cb-8552-b7ea73706023")
 	)
 	(junction
+		(at 81.28 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7c3cd72-5edf-4e79-a03b-2bb40cf1c890")
+	)
+	(junction
 		(at 102.87 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3970,12 +3679,6 @@
 		(uuid "e578ba19-4711-453c-98dd-2102acfbe1bf")
 	)
 	(junction
-		(at 191.77 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5d1b086-f309-4ae4-8399-e497d901e490")
-	)
-	(junction
 		(at 55.88 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4014,6 +3717,16 @@
 			(type default)
 		)
 		(uuid "00047e8a-c03e-4612-95ea-98e9cbdbdafa")
+	)
+	(wire
+		(pts
+			(xy 201.93 100.33) (xy 201.93 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00690a44-212b-4d18-a816-3bd3b03cb1c4")
 	)
 	(wire
 		(pts
@@ -4437,13 +4150,13 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 158.75) (xy 228.6 160.02)
+			(xy 191.77 127) (xy 201.93 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b571f32-249d-4c11-8d0a-89b486804f68")
+		(uuid "3bbfeb39-68bd-4976-b645-29dd9e55ef66")
 	)
 	(wire
 		(pts
@@ -4457,7 +4170,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 34.29) (xy 90.17 34.29)
+			(xy 55.88 34.29) (xy 81.28 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4585,16 +4298,6 @@
 		)
 		(uuid "4ab373e9-b372-4176-af60-f1f9393589fd")
 	)
-	(wire
-		(pts
-			(xy 191.77 127) (xy 201.93 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e10d52c-c066-4a3c-8f85-6a18053226df")
-	)
 	(polyline
 		(pts
 			(xy 161.29 49.53) (xy 217.17 49.53)
@@ -4644,16 +4347,6 @@
 			(type default)
 		)
 		(uuid "5187f08b-7212-45af-8023-c9e368292fd5")
-	)
-	(wire
-		(pts
-			(xy 190.5 127) (xy 191.77 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57646488-2cb8-4ac3-94f2-75a602c66332")
 	)
 	(polyline
 		(pts
@@ -4747,7 +4440,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.32 97.79) (xy 263.398 97.79)
+			(xy 146.812 94.234) (xy 262.89 94.234)
 		)
 		(stroke
 			(width 0)
@@ -4835,6 +4528,16 @@
 		)
 		(uuid "72d3d543-1d6c-4244-8887-818d4132d4af")
 	)
+	(wire
+		(pts
+			(xy 81.28 34.29) (xy 90.17 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76fb5d2e-115a-4faa-a650-28eeca8024f5")
+	)
 	(polyline
 		(pts
 			(xy 22.86 22.86) (xy 137.16 22.86)
@@ -4847,7 +4550,7 @@
 	)
 	(polyline
 		(pts
-			(xy 263.398 97.79) (xy 263.398 144.78)
+			(xy 262.89 94.234) (xy 262.89 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5427,16 +5130,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 158.75) (xy 194.31 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae617dc5-bd9d-4306-a0e6-65baefad9e73")
-	)
-	(wire
-		(pts
 			(xy 185.42 33.02) (xy 208.28 33.02)
 		)
 		(stroke
@@ -5494,6 +5187,16 @@
 			(type default)
 		)
 		(uuid "b9066721-324d-4972-996d-559d3d311154")
+	)
+	(wire
+		(pts
+			(xy 81.28 31.75) (xy 81.28 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bba280fd-7e0a-4dcf-a15e-19a459d4bcd8")
 	)
 	(polyline
 		(pts
@@ -5557,7 +5260,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.32 97.79) (xy 147.32 144.78)
+			(xy 146.812 94.234) (xy 146.812 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5675,16 +5378,6 @@
 		)
 		(uuid "d08a9c82-344a-4f79-9b8c-8b665dde2566")
 	)
-	(wire
-		(pts
-			(xy 240.03 158.75) (xy 240.03 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d09899b7-f401-435d-82b2-8b23082abaff")
-	)
 	(polyline
 		(pts
 			(xy 137.16 71.12) (xy 22.86 71.12)
@@ -5764,16 +5457,6 @@
 			(type default)
 		)
 		(uuid "dd80243c-67ae-4602-b00a-297b67c6946e")
-	)
-	(wire
-		(pts
-			(xy 205.74 158.75) (xy 205.74 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dec252e1-195d-46ea-b623-acf1ca44305b")
 	)
 	(polyline
 		(pts
@@ -5907,16 +5590,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 158.75) (xy 182.88 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea161fcb-4b09-456d-b459-da947c238129")
-	)
-	(wire
-		(pts
 			(xy 186.69 105.41) (xy 190.5 105.41)
 		)
 		(stroke
@@ -6027,16 +5700,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 158.75) (xy 217.17 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa0c7225-1960-4f76-bacf-c9a7fb3bf24e")
-	)
-	(wire
-		(pts
 			(xy 44.45 185.42) (xy 44.45 186.69)
 		)
 		(stroke
@@ -6109,7 +5772,7 @@
 	)
 	(text "12V Output"
 		(exclude_from_sim no)
-		(at 147.32 97.79 0)
+		(at 147.574 93.726 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7069,7 +6732,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Resettable Fuse 200mA_1")
 		(lib_id "Local Symbols:Resettable Fuse 200mA")
 		(at 78.74 87.63 0)
 		(unit 1)
@@ -7319,6 +6981,71 @@
 			(project "Breadboard Power Supply"
 				(path "/a474ae98-d5ea-4288-b242-cd0417157b2d"
 					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 201.93 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29996859-6369-4f2d-b8fe-5151fa1655ae")
+		(property "Reference" "#FLG2"
+			(at 201.93 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 201.93 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 201.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45e09718-3ecc-436b-a2ec-6e93323d3c14")
+		)
+		(instances
+			(project "Breadboard Power Supply"
+				(path "/a474ae98-d5ea-4288-b242-cd0417157b2d"
+					(reference "#FLG2")
 					(unit 1)
 				)
 			)
@@ -8077,71 +7804,6 @@
 			(project "Breadboard Power Supply"
 				(path "/a474ae98-d5ea-4288-b242-cd0417157b2d"
 					(reference "#PWR31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 205.74 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3fabb153-a55c-4bae-84a5-2105ad6307f9")
-		(property "Reference" "#PWR020"
-			(at 205.74 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 205.74 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 205.74 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f723443-2777-4264-9cfe-ac3ca336f223")
-		)
-		(instances
-			(project "Breadboard Power Supply"
-				(path "/a474ae98-d5ea-4288-b242-cd0417157b2d"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -9475,136 +9137,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 228.6 160.02 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7101087c-9686-4f7c-98c4-2ca6f45a5811")
-		(property "Reference" "#FLG7"
-			(at 228.6 161.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 228.6 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 228.6 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 228.6 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f64b6e9-4961-407f-b3df-f826ecd4ed9a")
-		)
-		(instances
-			(project "Breadboard Power Supply"
-				(path "/a474ae98-d5ea-4288-b242-cd0417157b2d"
-					(reference "#FLG7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 228.6 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7225f62e-b7c3-4c68-8d32-f0cce83b51e9")
-		(property "Reference" "#PWR35"
-			(at 228.6 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 228.6 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 228.6 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db48d1bc-a5a5-4571-9daa-8dd47d0243eb")
-		)
-		(instances
-			(project "Breadboard Power Supply"
-				(path "/a474ae98-d5ea-4288-b242-cd0417157b2d"
-					(reference "#PWR35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 180.34 138.43 0)
 		(unit 1)
@@ -9911,7 +9443,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Global-Footprints:SOT-223"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
 			(at 59.69 130.81 0)
 			(effects
 				(font
@@ -10412,71 +9944,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 182.88 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c81e21c-27ed-4252-83ce-cb7f13636bec")
-		(property "Reference" "#FLG02"
-			(at 182.88 156.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 182.88 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 182.88 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec558344-9249-4086-a33e-afcd901f854d")
-		)
-		(instances
-			(project "Breadboard Power Supply"
-				(path "/a474ae98-d5ea-4288-b242-cd0417157b2d"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 102.87 142.24 0)
 		(unit 1)
@@ -10631,6 +10098,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 81.28 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a75fe89-7a01-4eb4-ada7-bb7713484b6d")
+		(property "Reference" "#FLG1"
+			(at 81.28 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 81.28 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 81.28 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa01f991-c3e4-4b79-9570-626c7d4ea7fc")
+		)
+		(instances
+			(project "Breadboard Power Supply"
+				(path "/a474ae98-d5ea-4288-b242-cd0417157b2d"
+					(reference "#FLG1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 207.01 63.5 0)
 		(unit 1)
@@ -10756,71 +10288,6 @@
 			(project "Breadboard Power Supply"
 				(path "/a474ae98-d5ea-4288-b242-cd0417157b2d"
 					(reference "#PWR30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 194.31 160.02 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a2293d9f-d13a-457e-a5d8-9d403ee2911d")
-		(property "Reference" "#FLG01"
-			(at 194.31 161.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 194.31 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 194.31 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6e9f9f9-3727-4da5-b43a-1122e1540095")
-		)
-		(instances
-			(project "Breadboard Power Supply"
-				(path "/a474ae98-d5ea-4288-b242-cd0417157b2d"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -11135,71 +10602,6 @@
 			(project "Breadboard Power Supply"
 				(path "/a474ae98-d5ea-4288-b242-cd0417157b2d"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 240.03 160.02 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b05f442b-eb1e-4e81-9526-0e7686ca2ade")
-		(property "Reference" "#FLG3"
-			(at 240.03 161.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 240.03 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.03 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 240.03 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d86a9aec-185b-4106-aff1-da9b05f9fe11")
-		)
-		(instances
-			(project "Breadboard Power Supply"
-				(path "/a474ae98-d5ea-4288-b242-cd0417157b2d"
-					(reference "#FLG3")
 					(unit 1)
 				)
 			)
@@ -11569,192 +10971,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Global-Symbols:AP3012KTR-G1")
-		(at 166.37 125.095 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bb49f9fd-4652-437c-b23a-c878f522987f")
-		(property "Reference" "IC1"
-			(at 170.18 131.445 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "AP3012KTR-G1"
-			(at 170.18 133.985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Global-Footprints:SOT95P280X145-5N"
-			(at 190.5 220.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/AP3012KTR-G1.pdf"
-			(at 190.5 320.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "DiodesZetex AP3012KTR-G1, Step Up DC-DC Converter, 500mA, Adjustable, Maximum of 29 V, 5-Pin SOT-23"
-			(at 166.37 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.45"
-			(at 190.5 520.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 190.5 620.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AP3012KTR-G1"
-			(at 190.5 720.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "621-AP3012KTR-G1"
-			(at 190.5 820.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP3012KTR-G1?qs=x6A8l6qLYDDQ%252B3KTjfzHFg%3D%3D"
-			(at 190.5 920.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "AP3012KTR-G1"
-			(at 190.5 1020.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ap3012ktr-g1/diodes-incorporated?region=nac"
-			(at 190.5 1120.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 166.37 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part Num" ""
-			(at 166.37 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key Part Num" "AP3012KTR-G1"
-			(at 166.37 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key Part Number" "AP3012KTR-G1DICT-ND"
-			(at 166.37 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "8c426a55-8927-4cd3-ac8c-fd86a1ae637b")
-		)
-		(pin "2"
-			(uuid "d34e12ac-d0e7-4ca3-8c29-c76e0bd6d855")
-		)
-		(pin "4"
-			(uuid "469ebf11-9ebb-47ab-8f0b-1a15217d696c")
-		)
-		(pin "3"
-			(uuid "03482d17-8eeb-4ec1-aa33-9d8c56ae39bb")
-		)
-		(pin "1"
-			(uuid "964f05dc-2137-439d-b7a0-33f1fae4a942")
-		)
-		(instances
-			(project "Breadboard Power Supply"
-				(path "/a474ae98-d5ea-4288-b242-cd0417157b2d"
-					(reference "IC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 69.85 146.05 0)
 		(mirror y)
@@ -12069,7 +11285,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Global-Footprints:SOT-223"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
 			(at 59.69 87.63 0)
 			(effects
 				(font
@@ -12287,7 +11503,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Resettable Fuse 200mA_2")
 		(lib_id "Local Symbols:Resettable Fuse 200mA")
 		(at 78.74 130.81 0)
 		(unit 1)
@@ -12780,71 +11995,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 182.88 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d65cb98a-9e41-4dfb-a13f-21666fea156f")
-		(property "Reference" "#PWR013"
-			(at 182.88 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 182.88 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "33431bb2-0d55-467b-848a-4fb58f1edeed")
-		)
-		(instances
-			(project "Breadboard Power Supply"
-				(path "/a474ae98-d5ea-4288-b242-cd0417157b2d"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Global-Symbols:LED 0603")
 		(at 251.46 119.38 90)
 		(unit 1)
@@ -13037,16 +12187,54 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V8")
-		(at 240.03 158.75 0)
+		(lib_id "Global-Symbols:AP3012KTR-G1")
+		(at 160.02 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "dd9c964d-399e-4018-b568-f713b1229a13")
-		(property "Reference" "#PWR36"
-			(at 240.03 162.56 0)
+		(uuid "da7325fe-af79-4beb-ade4-25c2ecd8ad13")
+		(property "Reference" "U4"
+			(at 170.434 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "AP3012KTR-G1"
+			(at 170.434 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Global-Footprints:SOT-23-5_DIO"
+			(at 160.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP3012.pdf"
+			(at 160.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13054,16 +12242,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1V8"
-			(at 240.03 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 158.75 0)
+		(property "Manufacturer" "Diodes, Inc."
+			(at 160.02 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13071,8 +12251,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 240.03 158.75 0)
+		(property "Mfg Part Num" "AP3012KTR-G1"
+			(at 160.02 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13080,22 +12260,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 240.03 158.75 0)
+		(property "DigiKey Part Num" "AP3012KTR-G1DICT-ND"
+			(at 160.02 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "2"
+			(uuid "d549518f-6292-4ef4-9d3d-314f2d3557e7")
+		)
+		(pin "3"
+			(uuid "da9285d1-b579-4ed0-97ca-5ffdeccdbb04")
 		)
 		(pin "1"
-			(uuid "42aa6239-43dd-4e56-8e31-76e48d45dbc9")
+			(uuid "d51b1068-a5ff-462a-a2e2-9eeaeb79d311")
+		)
+		(pin "4"
+			(uuid "e1fe6f36-74a3-4244-9592-e16d12813e90")
+		)
+		(pin "5"
+			(uuid "fbdfda49-6770-4f6d-adfb-ed4ffd324824")
 		)
 		(instances
-			(project "Breadboard Power Supply"
+			(project ""
 				(path "/a474ae98-d5ea-4288-b242-cd0417157b2d"
-					(reference "#PWR36")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -13336,71 +12528,6 @@
 			(project "Breadboard Power Supply"
 				(path "/a474ae98-d5ea-4288-b242-cd0417157b2d"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 217.17 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb84cc05-7b95-40e2-942c-a2f30d41ec73")
-		(property "Reference" "#PWR34"
-			(at 217.17 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 217.17 154.686 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 217.17 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5eb35d10-6324-426e-9825-5c1170739eea")
-		)
-		(instances
-			(project "Breadboard Power Supply"
-				(path "/a474ae98-d5ea-4288-b242-cd0417157b2d"
-					(reference "#PWR34")
 					(unit 1)
 				)
 			)
@@ -13728,201 +12855,6 @@
 			(project "Breadboard Power Supply"
 				(path "/a474ae98-d5ea-4288-b242-cd0417157b2d"
 					(reference "#PWR33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 217.17 160.02 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f713b370-a591-48bc-91ee-6b03a4658bd2")
-		(property "Reference" "#FLG5"
-			(at 217.17 161.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 217.17 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 217.17 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0aa4c334-e4f0-4f71-b875-1dcc1cf15463")
-		)
-		(instances
-			(project "Breadboard Power Supply"
-				(path "/a474ae98-d5ea-4288-b242-cd0417157b2d"
-					(reference "#FLG5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 205.74 160.02 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f83e576d-6655-496f-9d87-8f46a62b76a7")
-		(property "Reference" "#FLG06"
-			(at 205.74 161.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 205.74 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 205.74 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b97f97c1-08b6-4a65-b2de-a2f225627d25")
-		)
-		(instances
-			(project "Breadboard Power Supply"
-				(path "/a474ae98-d5ea-4288-b242-cd0417157b2d"
-					(reference "#FLG06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 194.31 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f90d1e41-b928-4274-8380-2c7e4577063c")
-		(property "Reference" "#PWR010"
-			(at 194.31 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 194.31 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 194.31 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "daed4584-ad5a-4373-b1e6-7c14bb2937a1")
-		)
-		(instances
-			(project "Breadboard Power Supply"
-				(path "/a474ae98-d5ea-4288-b242-cd0417157b2d"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
