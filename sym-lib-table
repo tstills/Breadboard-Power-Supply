@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Local-Libraries")(type "KiCad")(uri "${KIPRJMOD}/Local-Libraries.kicad_sym")(options "")(descr ""))
   (lib (name "My-Local-Symbols")(type "KiCad")(uri "/Users/tim/Documents/KiCad/Pi-Pico-Breakout-Board/My-Local-Symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "Local Symbols")(type "KiCad")(uri "${KIPRJMOD}/Local Symbols.kicad_sym")(options "")(descr ""))
 )
