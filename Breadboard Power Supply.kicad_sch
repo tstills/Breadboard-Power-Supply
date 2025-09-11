@@ -6258,7 +6258,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.2kΩ"
+		(property "Value" "560Ω"
 			(at 123.825 93.98 0)
 			(effects
 				(font
@@ -10408,7 +10408,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.2kΩ"
+		(property "Value" "1.2kΩ"
 			(at 123.825 137.16 0)
 			(effects
 				(font
@@ -10627,7 +10627,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.2kΩ"
+		(property "Value" "5.6kΩ"
 			(at 253.365 111.76 0)
 			(effects
 				(font
