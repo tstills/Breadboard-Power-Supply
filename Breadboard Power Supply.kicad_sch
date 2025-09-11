@@ -8587,7 +8587,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "390Ω"
+		(property "Value" "47Ω"
 			(at 71.755 156.21 0)
 			(effects
 				(font
@@ -10990,7 +10990,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150Ω"
+		(property "Value" "120Ω"
 			(at 71.755 147.32 0)
 			(effects
 				(font
@@ -11695,7 +11695,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "100uF"
 			(at 227.965 111.76 0)
 			(effects
 				(font
@@ -12474,7 +12474,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "330Ω"
+		(property "Value" "100Ω"
 			(at 71.755 136.525 0)
 			(effects
 				(font

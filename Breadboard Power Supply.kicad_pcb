@@ -14591,7 +14591,7 @@
 			(justify left)
 		)
 	)
-	(gr_text "VSYS"
+	(gr_text "VBUS"
 		(at 138.033 77.181 0)
 		(layer "F.SilkS")
 		(uuid "f72eb096-9f52-4a59-8382-c3d50c54855c")
