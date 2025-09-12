@@ -4095,7 +4095,7 @@
 			(at 0 0 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a7f930e2-196d-4a7b-a2b7-efdbd36ee9c2")
+			(uuid "3d570a5e-f7b9-4cee-86f8-3e120ab330d0")
 			(effects
 				(font
 					(size 1 1)
@@ -4108,7 +4108,7 @@
 			(at 0 0 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "403bc707-a468-454d-aede-049882f07c0b")
+			(uuid "6271f204-6795-496a-a0db-e5483bb3385e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4120,7 +4120,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ffdc1b70-583f-4784-a421-d8e3920188b5")
+			(uuid "c59db13c-50cb-43b2-9806-7e1884c2278e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4132,7 +4132,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "60e6f0b3-7392-42bc-a4d3-68e22ebb2a5a")
+			(uuid "88d0f231-2f27-4691-8d97-3662ee078706")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4144,7 +4144,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "951515d6-35c6-44c3-834f-3fd457ef6dd4")
+			(uuid "826d6188-1a6e-470f-b2aa-1ec0db82e632")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4204,7 +4204,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e069d689-6404-4c7e-a4cc-a8593a1e85f5")
+			(uuid "b0b0b883-fcb5-4fdc-b4f7-e42a7a95679a")
 		)
 		(fp_line
 			(start -2.286 -0.9)
@@ -4214,7 +4214,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "01c93621-b8f1-47a1-abb9-8a763a9b9de0")
+			(uuid "f6c2cdd9-36d9-43e5-a2f2-c14699d2cb65")
 		)
 		(fp_line
 			(start -2.286 -0.9)
@@ -4224,7 +4224,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "dbbe800c-5ca9-49e0-b7e2-25a5b9ebac52")
+			(uuid "7062afa5-1cf9-4848-a771-e9e5f499cab9")
 		)
 		(fp_line
 			(start 2.21 1.1)
@@ -4234,7 +4234,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "6990bf68-b716-4eae-b8fc-35e1f7d62bc9")
+			(uuid "b1cced86-d2b1-4fc6-86cc-591a9202e67c")
 		)
 		(fp_line
 			(start 2.21 -1.1)
@@ -4244,7 +4244,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "fd3b70dd-7f96-4349-a1a9-c41e85b3b41a")
+			(uuid "05127520-7225-41a9-b9d8-dd2f317f157c")
 		)
 		(fp_line
 			(start -2.21 1.1)
@@ -4254,7 +4254,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "6117fb6d-cbab-462d-a5ea-94a2c3239d19")
+			(uuid "0b88ec42-f168-425d-912d-35e354d85732")
 		)
 		(fp_line
 			(start -2.21 -1.1)
@@ -4264,7 +4264,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "8e4c0c37-d00b-4153-aa78-f7688e8a38fb")
+			(uuid "a88caa8f-e5c5-4a5b-a923-b4a6f33ed068")
 		)
 		(fp_line
 			(start 1.35 0.9)
@@ -4274,7 +4274,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "fdc53bdd-7913-43ac-a5c6-00248be46bb4")
+			(uuid "5de1265b-fe6b-4503-b8a8-53f3520e2785")
 		)
 		(fp_line
 			(start 1.35 -0.9)
@@ -4284,7 +4284,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ec219718-d33c-45df-903b-2aa9fa6d174c")
+			(uuid "6b9c902b-f62e-4d96-8762-b0032079e227")
 		)
 		(fp_line
 			(start -1.35 0.9)
@@ -4294,7 +4294,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5cee782d-91d5-439e-93f8-e0f7a04c25ff")
+			(uuid "9cfb9d59-1614-406d-b9a5-c09d578dd592")
 		)
 		(fp_line
 			(start -1.35 -0.34)
@@ -4304,7 +4304,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3986001f-7e4c-4e91-bf96-ca450f12d6a3")
+			(uuid "fb84fa6e-3844-4db4-9b12-1b72b8668703")
 		)
 		(fp_line
 			(start -1.35 -0.9)
@@ -4314,12 +4314,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "bc072040-54c4-4245-a19c-423e48e4ace2")
+			(uuid "1ae80e08-7907-4f30-ace8-a2cf2b103ac7")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "62903599-84ef-48bc-95bc-d2a4ce4dd3ae")
+			(uuid "3a096161-052e-4408-9a0a-c7a88cdc1887")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4334,7 +4334,7 @@
 			(net 16 "Net-(D1-A1)")
 			(pinfunction "A1")
 			(pintype "passive")
-			(uuid "585164e6-5014-4d44-afbf-81dd6b8e16d1")
+			(uuid "f821f037-313b-4798-abe2-94f1734fa88e")
 		)
 		(pad "2" smd rect
 			(at 1.5 0 180)
@@ -4343,9 +4343,9 @@
 			(net 14 "Net-(D1-A2)")
 			(pinfunction "A2")
 			(pintype "passive")
-			(uuid "2b98d9a8-c6b0-4582-8c15-4b8d5c9992ad")
+			(uuid "598feec4-266b-4844-9888-10218654be5d")
 		)
-		(model "${KIPRJMOD}/Local-Footprints.pretty/1N5819HW-7-F.stp"
+		(model "/Users/tim/Documents/KiCad/Global-Footprints.pretty/1N5819HW-7-F.stp"
 			(offset
 				(xyz 0 0 0)
 			)
