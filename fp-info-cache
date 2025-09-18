@@ -1,4 +1,4 @@
-24624899149953845
+24637275092660501
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -58037,6 +58037,20 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 2
 2
 Global-Footprints
+100uF 6.3V Capacitor
+
+
+0
+2
+2
+Global-Footprints
+100uF 16V Capacitor
+
+16ZLH100MEFC5X11 
+0
+2
+2
+Global-Footprints
 AMPHENOL_12402012E212A
 
 
@@ -58044,9 +58058,16 @@ AMPHENOL_12402012E212A
 16
 16
 Global-Footprints
-JST-SH 3-Pin
-SM03B-SRSS-TB(LF)(SN)-3
-Connector
+JST-SH 3 Pin 1mm Side Entry
+
+SM03B-SRSS-TB 
+0
+5
+5
+Global-Footprints
+JST-SH 3 Pin 1mm Top Entry
+
+BM03B-SRSS-TBLFSN 
 0
 5
 5
@@ -58064,6 +58085,13 @@ LED 0603
 0
 2
 2
+Global-Footprints
+LM1117-ADJ
+
+
+0
+4
+4
 Global-Footprints
 Mounted Test Point
 
@@ -65687,6 +65715,27 @@ Yellow 5381 Series LED
 0
 2
 2
+Local Footprints
+INA180A1IDBVR
+
+
+0
+5
+5
+Local Footprints
+LM393 DFN8
+
+LM393LVDSGR 
+0
+9
+9
+Local Footprints
+LM393 SO8
+
+LM393DT 
+0
+8
+8
 Local Footprints
 Resettable Fuse 200mA
 
